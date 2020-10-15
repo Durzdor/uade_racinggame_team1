@@ -16,6 +16,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Player/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Menu/CursorImage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Utilities/BFS.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6A8DC567-3A4E-4788-B5AC-1561569747AB/8a/c07e0115/Input.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -29,6 +30,7 @@
         <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Menu/MainMenuController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Menu/CursorImage.cs" />
         <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Player/PlayerAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Player/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Player/PlayerController.cs" />
       </list>
     </option>
@@ -67,6 +69,9 @@
       <workItem from="1601331173760" duration="4964000" />
       <workItem from="1602627337217" duration="3124000" />
       <workItem from="1602695937337" duration="319000" />
+      <workItem from="1602714290928" duration="1000" />
+      <workItem from="1602717338876" duration="5940000" />
+      <workItem from="1602749494758" duration="1074000" />
     </task>
     <servers />
   </component>

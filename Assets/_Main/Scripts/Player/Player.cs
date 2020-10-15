@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private float speed;
+    private Rigidbody _rb;
+
+    private void Awake()
     {
-        
+        _rb = GetComponent<Rigidbody>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Move(Vector3 dir)
     {
-        
+        dir.y = 0;
+        _rb.velocity = dir * speed;
+        transform.forward = Vector3.Lerp(transform.forward, dir, 0.9f);
     }
 }
