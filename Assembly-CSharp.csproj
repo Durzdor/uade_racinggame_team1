@@ -67,6 +67,7 @@
     <Compile Include="Assets\_Main\Scripts\Menu\CursorImage.cs" />
     <Compile Include="Assets\_Main\Scripts\Menu\DeathMenuManager.cs" />
     <Compile Include="Assets\_Main\Scripts\Menu\MainMenuController.cs" />
+    <Compile Include="Assets\_Main\Scripts\Player\CarController.cs" />
     <Compile Include="Assets\_Main\Scripts\Player\Player.cs" />
     <Compile Include="Assets\_Main\Scripts\Player\PlayerAnimation.cs" />
     <Compile Include="Assets\_Main\Scripts\Player\PlayerController.cs" />
