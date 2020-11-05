@@ -1,9 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityStandardAssets.Cameras;
 
 public class KartController : MonoBehaviour
 {
+    public GameObject rearviewCamera;
+    
     private const string Horizontal = "Horizontal";
     private const string Vertical = "Vertical";
 
@@ -11,6 +14,7 @@ public class KartController : MonoBehaviour
     private float verticalInput;
     private bool isBraking;
     private bool isPaused;
+    private bool isRearview;
     private float currentSpeed;
     private float steeringAngle;
     
@@ -40,6 +44,7 @@ public class KartController : MonoBehaviour
     {
         GetInput();
         Pause();
+        RearviewCamera();
         SteeringFormula();
         BrakingFormula();
         VelocityFormula();
@@ -51,6 +56,7 @@ public class KartController : MonoBehaviour
         horizontalInput = Input.GetAxis(Horizontal);
         verticalInput = Input.GetAxis(Vertical);
         isBraking = Input.GetKey(KeyCode.Space);
+        isRearview = Input.GetKey(KeyCode.R);
     }
     
     //Pause
@@ -62,6 +68,19 @@ public class KartController : MonoBehaviour
             Time.timeScale = 0;
         else
             Time.timeScale = 1;
+    }
+    
+    //Rearview camera
+    private void RearviewCamera()
+    {
+        if (isRearview)
+        {
+            rearviewCamera.SetActive(true);
+        }
+        else
+        {
+            rearviewCamera.SetActive(false);
+        }
     }
     
     //Calculates the steering for the kart

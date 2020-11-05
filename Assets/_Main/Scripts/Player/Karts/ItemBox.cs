@@ -1,19 +1,24 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class ItemBox : MonoBehaviour
 {
     public KartPlayer _kartPlayer;
-    public IPower _iPower;
-    public ShieldPower shieldPower;
-    public MissilePower missilePower;
-    public MaxSpeedPower maxSpeedPower;
     
+    public enum Powers 
+    {
+        Shieldpower = 1, 
+        Missilepower = 2
+    }
+
     private Roulette _roulette;
-    private Dictionary<IPower, int> _dic;
+    private Dictionary<int, int> _dic;
     private float y0;
     private Vector3 tempPos;
+    private MeshRenderer _meshRenderer;
+    private BoxCollider _boxCollider;
     
     //How high it goes in Y
     [SerializeField] private float amplitude = 0.5f;
@@ -23,26 +28,24 @@ public class ItemBox : MonoBehaviour
     [SerializeField] private float xRotationSpeed = 30f;
     //How fast it rotates in Z
     [SerializeField] private float zRotationSpeed = 25f;
+    //How long until it respawns
+    [SerializeField] private float respawnTimer = 100f;
 
     private void Awake()
     {
-        _iPower = GetComponent<IPower>();
-        shieldPower = GetComponent<ShieldPower>();
-        missilePower = GetComponent<MissilePower>();
-        maxSpeedPower = GetComponent<MaxSpeedPower>();
         y0 = transform.position.y;
+        _meshRenderer = GetComponent<MeshRenderer>();
+        _boxCollider = GetComponent<BoxCollider>();
     }
 
     private void Start()
     {
         _roulette = new Roulette();
-        _dic = new Dictionary<IPower, int>();
+        _dic = new Dictionary<int, int>();
         //Adds shield power with its chance to be picked
-        _dic.Add(shieldPower, 400);
+        _dic.Add((int)Powers.Shieldpower, 40);
         //Adds missile power with its chance to be picked
-        _dic.Add(missilePower, 60);
-        //Adds maxspeed power with its chance to be picked
-        _dic.Add(maxSpeedPower, 33);
+        _dic.Add((int)Powers.Missilepower, 60);
     }
 
     private void Update()
@@ -68,8 +71,18 @@ public class ItemBox : MonoBehaviour
         {
             //Runs the roulette to choose the power
             _kartPlayer.StorePower(_roulette.Run(_dic));
-            _iPower.parent = other.gameObject.transform;
-            Destroy(this);
+            //Turns off the mesh and collider to simulate destruction
+            _meshRenderer.enabled = false;
+            _boxCollider.enabled = false;
+            //Respawns in the same space
+            Invoke(nameof(Respawn), respawnTimer);
         }
+    }
+    
+    //Function to show the box again
+    private void Respawn()
+    { 
+        _meshRenderer.enabled = true;
+        _boxCollider.enabled = true;
     }
 }

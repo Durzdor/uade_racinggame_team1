@@ -4,19 +4,25 @@ using UnityEngine;
 
 public class ShieldPower : IPower
 {
-    public GameObject shieldPrefab;
-    
     private GameObject cloneShieldPrefab;
     
+    [SerializeField] private GameObject shieldPrefab;
     [SerializeField] private float shieldDuration = 2f;
     
     public override void Execute()
     {
-        //Power
-        Debug.Log("test");
         //Spawns shield at the specified location
         cloneShieldPrefab = Instantiate(shieldPrefab,parent.transform.position,Quaternion.identity,parent.transform);
         //Destroys shield after the duration
-        Destroy(cloneShieldPrefab, shieldDuration);
+        Object.Destroy(cloneShieldPrefab, shieldDuration);
+        //Turns off the object
+        this.enabled = false;
+    }
+
+    private void Update()
+    {
+        //If not enabled stops
+        if (!this.enabled) return;
+        Execute();
     }
 }
