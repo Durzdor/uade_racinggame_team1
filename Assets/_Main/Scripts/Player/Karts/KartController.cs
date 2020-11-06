@@ -6,6 +6,7 @@ using UnityStandardAssets.Cameras;
 public class KartController : MonoBehaviour
 {
     public GameObject rearviewCamera;
+    public AudioSource kartSound;
     
     private const string Horizontal = "Horizontal";
     private const string Vertical = "Vertical";
@@ -48,6 +49,20 @@ public class KartController : MonoBehaviour
         SteeringFormula();
         BrakingFormula();
         VelocityFormula();
+
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            if(!kartSound.isPlaying)
+            {
+                kartSound.Play();
+            }
+        }
+
+        if (Input.GetKeyUp(KeyCode.W))
+        {
+            kartSound.Stop();
+        }
+
     }
     
     //Input detections
