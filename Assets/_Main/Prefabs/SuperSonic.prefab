@@ -1500,7 +1500,7 @@ GameObject:
   - component: {fileID: 6196793602681957449}
   - component: {fileID: 6408436241468205651}
   m_Layer: 0
-  m_Name: MediumPlayer (4)
+  m_Name: SuperSonic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1513,8 +1513,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5537518506339101061}
-  m_LocalRotation: {x: -0, y: 0.0043105874, z: -0, w: 0.9999907}
-  m_LocalPosition: {x: -46.68, y: 2.97, z: -2.5}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7792352455324627616}
@@ -1524,7 +1524,7 @@ Transform:
   - {fileID: 3555956455978541144}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0.49400002, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &6196793602681957449
 Rigidbody:
   m_ObjectHideFlags: 0
