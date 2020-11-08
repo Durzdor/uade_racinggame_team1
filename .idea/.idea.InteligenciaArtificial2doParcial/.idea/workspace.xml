@@ -9,25 +9,14 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Menu/CreditsMenuManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Player/Karts/KartController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Karts/CarController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Menu/MainMenuController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Player/Karts/AbstractTargetFollower.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Utilities/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Menu/DeathMenuManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Menu/CursorImage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Utilities/BFS.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Player/Karts/KartPlayer.cs.meta" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Player/Karts/MissilePower.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Player/Karts/IPower.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Player/Karts/ShieldPower.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Player/Karts/ItemBox.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Player/Karts/KartPlayer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Player/PlayerAnimation.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Player/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Player/Karts/AutoCam.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Player/Player.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Player/Karts/MissileBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6A8DC567-3A4E-4788-B5AC-1561569747AB/8a/c07e0115/Input.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Player/Karts/PivotBasedCameraRig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Karts/IAKartController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -45,6 +34,11 @@
         <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Player/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Player/Karts/KartPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Player/Karts/ShieldPower.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Player/CarController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Main/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Utilities/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Karts/CarController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Karts/IAKartController.cs" />
       </list>
     </option>
   </component>
@@ -88,6 +82,8 @@
       <workItem from="1604542180873" duration="3769000" />
       <workItem from="1604581492035" duration="1005000" />
       <workItem from="1604582665069" duration="647000" />
+      <workItem from="1604834710449" duration="2586000" />
+      <workItem from="1604837402394" duration="6435000" />
     </task>
     <servers />
   </component>

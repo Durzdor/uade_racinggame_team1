@@ -338,6 +338,7 @@ GameObject:
   - component: {fileID: 1318932321739138196}
   - component: {fileID: 4409245451743073099}
   - component: {fileID: 3468037096933021009}
+  - component: {fileID: 6011612660522890406}
   m_Layer: 0
   m_Name: Wario
   m_TagString: Untagged
@@ -354,7 +355,7 @@ Transform:
   m_GameObject: {fileID: 2600424360076121735}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 354756148221840802}
   - {fileID: 8829296935792106527}
@@ -394,6 +395,22 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: -5919907032961227489, guid: 318d84467e38dde44843f5767040f0cf, type: 3}
+--- !u!114 &6011612660522890406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2600424360076121735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fb683dec6c88b949a94950ea41eb00f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentWaypoint: 0
+  currentLap: 0
+  lastWaypoint: {fileID: 0}
+  nbWaypoint: 26
 --- !u!1 &2879638960673958851
 GameObject:
   m_ObjectHideFlags: 0

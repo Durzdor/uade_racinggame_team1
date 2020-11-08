@@ -307,6 +307,7 @@ GameObject:
   - component: {fileID: 1623423526800049084}
   - component: {fileID: 4177809441371993187}
   - component: {fileID: 3813062004226585209}
+  - component: {fileID: 9094618659324629669}
   m_Layer: 0
   m_Name: Waluigi
   m_TagString: Untagged
@@ -363,6 +364,22 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: -5919907032961227489, guid: 318d84467e38dde44843f5767040f0cf, type: 3}
+--- !u!114 &9094618659324629669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2368003625377804719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fb683dec6c88b949a94950ea41eb00f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentWaypoint: 0
+  currentLap: 0
+  lastWaypoint: {fileID: 0}
+  nbWaypoint: 26
 --- !u!1 &2539131396333569006
 GameObject:
   m_ObjectHideFlags: 0

@@ -1499,6 +1499,7 @@ GameObject:
   - component: {fileID: 8827739608208415638}
   - component: {fileID: 6196793602681957449}
   - component: {fileID: 6408436241468205651}
+  - component: {fileID: 7949201199026531794}
   m_Layer: 0
   m_Name: SuperSonic
   m_TagString: Untagged
@@ -1555,6 +1556,22 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: -5919907032961227489, guid: 318d84467e38dde44843f5767040f0cf, type: 3}
+--- !u!114 &7949201199026531794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5537518506339101061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fb683dec6c88b949a94950ea41eb00f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentWaypoint: 0
+  currentLap: 0
+  lastWaypoint: {fileID: 0}
+  nbWaypoint: 26
 --- !u!1 &5708646724273920874
 GameObject:
   m_ObjectHideFlags: 0

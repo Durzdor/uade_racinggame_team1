@@ -2,8 +2,9 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <LangVersion>latest</LangVersion>
-    <CscToolPath>D:\Programas\Unity\2019.2.2f1\Editor\Data\Tools\RoslynScripts</CscToolPath>
-    <CscToolExe>unity_csc.bat</CscToolExe>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -55,30 +56,29 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\_Main\Scripts\Karts\AbstractTargetFollower.cs" />
+     <Compile Include="Assets\_Main\Scripts\Karts\AutoCam.cs" />
+     <Compile Include="Assets\_Main\Scripts\Karts\CarController.cs" />
+     <Compile Include="Assets\_Main\Scripts\Karts\IAKartController.cs" />
+     <Compile Include="Assets\_Main\Scripts\Karts\IPower.cs" />
+     <Compile Include="Assets\_Main\Scripts\Karts\ItemBox.cs" />
+     <Compile Include="Assets\_Main\Scripts\Karts\KartController.cs" />
+     <Compile Include="Assets\_Main\Scripts\Karts\KartPlayer.cs" />
+     <Compile Include="Assets\_Main\Scripts\Karts\MissileBehaviour.cs" />
+     <Compile Include="Assets\_Main\Scripts\Karts\MissilePower.cs" />
+     <Compile Include="Assets\_Main\Scripts\Karts\PivotBasedCameraRig.cs" />
+     <Compile Include="Assets\_Main\Scripts\Karts\ShieldPower.cs" />
      <Compile Include="Assets\_Main\Scripts\Menu\CreditsMenuManager.cs" />
      <Compile Include="Assets\_Main\Scripts\Menu\CursorImage.cs" />
      <Compile Include="Assets\_Main\Scripts\Menu\DeathMenuManager.cs" />
      <Compile Include="Assets\_Main\Scripts\Menu\MainMenuController.cs" />
-     <Compile Include="Assets\_Main\Scripts\Player\CarController.cs" />
-     <Compile Include="Assets\_Main\Scripts\Player\Karts\AbstractTargetFollower.cs" />
-     <Compile Include="Assets\_Main\Scripts\Player\Karts\AutoCam.cs" />
-     <Compile Include="Assets\_Main\Scripts\Player\Karts\IPower.cs" />
-     <Compile Include="Assets\_Main\Scripts\Player\Karts\ItemBox.cs" />
-     <Compile Include="Assets\_Main\Scripts\Player\Karts\KartController.cs" />
-     <Compile Include="Assets\_Main\Scripts\Player\Karts\KartPlayer.cs" />
-     <Compile Include="Assets\_Main\Scripts\Player\Karts\MissileBehaviour.cs" />
-     <Compile Include="Assets\_Main\Scripts\Player\Karts\MissilePower.cs" />
-     <Compile Include="Assets\_Main\Scripts\Player\Karts\PivotBasedCameraRig.cs" />
-     <Compile Include="Assets\_Main\Scripts\Player\Karts\ShieldPower.cs" />
-     <Compile Include="Assets\_Main\Scripts\Player\Player.cs" />
-     <Compile Include="Assets\_Main\Scripts\Player\PlayerAnimation.cs" />
-     <Compile Include="Assets\_Main\Scripts\Player\PlayerController.cs" />
      <Compile Include="Assets\_Main\Scripts\Utilities\ActionNode.cs" />
      <Compile Include="Assets\_Main\Scripts\Utilities\AgentBFSDFS.cs" />
      <Compile Include="Assets\_Main\Scripts\Utilities\BFS.cs" />
      <Compile Include="Assets\_Main\Scripts\Utilities\DFS.cs" />
      <Compile Include="Assets\_Main\Scripts\Utilities\FSM.cs" />
      <Compile Include="Assets\_Main\Scripts\Utilities\FSMState.cs" />
+     <Compile Include="Assets\_Main\Scripts\Utilities\GameManager.cs" />
      <Compile Include="Assets\_Main\Scripts\Utilities\INode.cs" />
      <Compile Include="Assets\_Main\Scripts\Utilities\QuestionNode.cs" />
      <Compile Include="Assets\_Main\Scripts\Utilities\Roulette.cs" />

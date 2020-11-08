@@ -8,29 +8,25 @@
       <e p="Assets" t="Include">
         <e p="_Main" t="Include">
           <e p="Scripts" t="Include">
+            <e p="Karts" t="Include">
+              <e p="AbstractTargetFollower.cs" t="Include" />
+              <e p="AutoCam.cs" t="Include" />
+              <e p="CarController.cs" t="Include" />
+              <e p="IAKartController.cs" t="Include" />
+              <e p="IPower.cs" t="Include" />
+              <e p="ItemBox.cs" t="Include" />
+              <e p="KartController.cs" t="Include" />
+              <e p="KartPlayer.cs" t="Include" />
+              <e p="MissileBehaviour.cs" t="Include" />
+              <e p="MissilePower.cs" t="Include" />
+              <e p="PivotBasedCameraRig.cs" t="Include" />
+              <e p="ShieldPower.cs" t="Include" />
+            </e>
             <e p="Menu" t="Include">
               <e p="CreditsMenuManager.cs" t="Include" />
               <e p="CursorImage.cs" t="Include" />
               <e p="DeathMenuManager.cs" t="Include" />
               <e p="MainMenuController.cs" t="Include" />
-            </e>
-            <e p="Player" t="Include">
-              <e p="CarController.cs" t="Include" />
-              <e p="Karts" t="Include">
-                <e p="AbstractTargetFollower.cs" t="Include" />
-                <e p="AutoCam.cs" t="Include" />
-                <e p="IPower.cs" t="Include" />
-                <e p="ItemBox.cs" t="Include" />
-                <e p="KartController.cs" t="Include" />
-                <e p="KartPlayer.cs" t="Include" />
-                <e p="MissileBehaviour.cs" t="Include" />
-                <e p="MissilePower.cs" t="Include" />
-                <e p="PivotBasedCameraRig.cs" t="Include" />
-                <e p="ShieldPower.cs" t="Include" />
-              </e>
-              <e p="Player.cs" t="Include" />
-              <e p="PlayerAnimation.cs" t="Include" />
-              <e p="PlayerController.cs" t="Include" />
             </e>
             <e p="Utilities" t="Include">
               <e p="ActionNode.cs" t="Include" />
@@ -39,6 +35,7 @@
               <e p="DFS.cs" t="Include" />
               <e p="FSM.cs" t="Include" />
               <e p="FSMState.cs" t="Include" />
+              <e p="GameManager.cs" t="Include" />
               <e p="INode.cs" t="Include" />
               <e p="QuestionNode.cs" t="Include" />
               <e p="Roulette.cs" t="Include" />
