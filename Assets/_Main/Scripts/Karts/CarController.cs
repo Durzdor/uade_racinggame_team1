@@ -8,9 +8,7 @@ public class CarController : MonoBehaviour
     public int currentLap;
     public Transform lastWaypoint;
     public int nbWaypoint; //Set the amount of Waypoints
-
-    private static int WAYPOINT_VALUE = 100;
-    private static int LAP_VALUE = 10000;
+    
     private int cpt_waypoint = 0;
 
     private void Start()
@@ -48,20 +46,32 @@ public class CarController : MonoBehaviour
 
     public float GetDistance()
     {
-        return (transform.position - lastWaypoint.position).magnitude + currentWaypoint * WAYPOINT_VALUE +
-               currentLap * LAP_VALUE;
+        return (transform.position - lastWaypoint.position).magnitude;
     }
 
     public int GetCarPosition(CarController[] allCars)
     {
         float distance = GetDistance();
         int position = 1;
+        int lap = currentLap;
+        int waypoint = currentWaypoint;
         foreach (CarController car in allCars)
         {
-            if (car.GetDistance() > distance)
+            if (car.currentLap > lap)
+            {
                 position++;
+                break;
+            }
+            if (car.currentWaypoint > waypoint && car.currentLap == lap)
+            {
+                position++;
+                break;
+            }
+            if (car.GetDistance() > distance && car.currentWaypoint == waypoint && car.currentLap == lap)
+            {
+                position++;
+            }
         }
-
         return position;
     }
 }

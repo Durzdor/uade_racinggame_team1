@@ -38,12 +38,14 @@
               <e p="FSM.cs" t="Include" />
               <e p="FSMState.cs" t="Include" />
               <e p="GameManager.cs" t="Include" />
+              <e p="GameTimer.cs" t="Include" />
               <e p="INode.cs" t="Include" />
               <e p="QuestionNode.cs" t="Include" />
               <e p="Roulette.cs" t="Include" />
             </e>
           </e>
         </e>
+        <e p="MinimapScript.cs" t="Include" />
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">
             <e p="LiberationSans - OFL.txt" t="Include" />

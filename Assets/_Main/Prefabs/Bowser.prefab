@@ -493,6 +493,8 @@ GameObject:
   - component: {fileID: 7801170697168975803}
   - component: {fileID: 2944486762437910979}
   - component: {fileID: 395580891947988896}
+  - component: {fileID: 371760424}
+  - component: {fileID: 371760425}
   m_Layer: 0
   m_Name: Bowser
   m_TagString: Untagged
@@ -565,6 +567,42 @@ MonoBehaviour:
   currentLap: 0
   lastWaypoint: {fileID: 0}
   nbWaypoint: 26
+--- !u!114 &371760424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4074904862043201516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a1b086f71fef3a43be6e1c73670199b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mask:
+    serializedVersion: 2
+    m_Bits: 0
+  range: 1
+  angle: 1
+  gravityFallSpeed: 30
+  gravMin: -220
+  gravMax: 220
+  steerSpeed: 1
+--- !u!114 &371760425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4074904862043201516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f46611998a65be04ab58de544ce9bdf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distance: 35
+  radius: 75
+  speed: 250
 --- !u!1 &4129753604988997178
 GameObject:
   m_ObjectHideFlags: 0

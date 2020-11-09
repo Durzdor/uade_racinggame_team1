@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2470405338085553470}
   m_Layer: 0
   m_Name: Box
-  m_TagString: Untagged
+  m_TagString: ItemBox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -93,11 +93,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _kartPlayer: {fileID: 0}
+  itemBoxAudio: {fileID: 0}
   amplitude: 0.5
   speed: 1
   xRotationSpeed: 30
   zRotationSpeed: 25
-  respawnTimer: 100
+  respawnTimer: 3
 --- !u!65 &2470405338085553470
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -123,7 +124,7 @@ GameObject:
   - component: {fileID: -1784686529131590362}
   m_Layer: 0
   m_Name: ItemBox
-  m_TagString: Untagged
+  m_TagString: ItemBox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

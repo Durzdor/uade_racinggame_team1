@@ -1,11 +1,15 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
+using UnityEngine.UI;
 
 public class KartPlayer : MonoBehaviour
 {
     private Rigidbody _rb;
+    private CarController _car;
     
     public ShieldPower shieldPower;
     public MissilePower missilePower;
+    public Text myPosition;
     
     private int storedPower = 0;
     
@@ -16,6 +20,7 @@ public class KartPlayer : MonoBehaviour
     private void Awake()
     {
         _rb = GetComponent<Rigidbody>();
+        _car = GetComponent<CarController>();
     }
 
     private void Start()
@@ -39,6 +44,7 @@ public class KartPlayer : MonoBehaviour
     private void Update()
     {
         Power();
+        MyPos();
     }
 
     //Power
@@ -69,5 +75,14 @@ public class KartPlayer : MonoBehaviour
     {
         if (storedPower != 0) return;
         storedPower = power;
+    }
+
+    public void MyPos()
+    {
+        CarController[] order = GameManager.Instance.carOrder;
+        var position = Array.IndexOf(order, _car) + 1 ;
+        //var position = _car.GetCarPosition(GameManager.Instance.allCars);
+        string currentPos = position.ToString();
+        myPosition.text = currentPos;
     }
 }
