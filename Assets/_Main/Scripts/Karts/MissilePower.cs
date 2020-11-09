@@ -5,13 +5,23 @@ using UnityEngine;
 public class MissilePower : IPower
 {
     private GameObject cloneMissilePrefab;
+    public AudioSource redShellAudio;
     
     [SerializeField] private GameObject missilePrefab;
     [SerializeField] private float missileDuration = 10f;
     [SerializeField] private Vector3 missileOffset = Vector3.up;
-    
-    public override void Execute()
+
+    public void Awake()
     {
+        
+        
+
+    }
+
+    public override void Execute()
+
+    {
+        redShellAudio.Play();
         //Power
         Debug.Log("misil");
         //Spawns shield at the specified location

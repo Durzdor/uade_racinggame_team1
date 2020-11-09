@@ -6,6 +6,7 @@ using UnityEngine;
 public class ItemBox : MonoBehaviour
 {
     public KartPlayer _kartPlayer;
+    public AudioSource itemBoxAudio;
     
     public enum Powers 
     {
@@ -69,6 +70,8 @@ public class ItemBox : MonoBehaviour
         //Checks if it has the corresponding tag
         if (other.gameObject.CompareTag("Player"))
         {
+            //PLay ItemBox Sound when collides with player
+            itemBoxAudio.Play();
             //Runs the roulette to choose the power
             _kartPlayer.StorePower(_roulette.Run(_dic));
             //Turns off the mesh and collider to simulate destruction
