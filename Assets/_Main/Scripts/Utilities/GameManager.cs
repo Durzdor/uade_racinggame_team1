@@ -1,10 +1,14 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
     [HideInInspector] public bool dontDestroyOnLoad;
     public static GameManager Instance;
     
+    
+    public List<Transform> waypoints;
+
     public Transform lastCheckpointInLap;
     public CarController[] allCars;
     public CarController[] carOrder;
@@ -38,7 +42,7 @@ public class GameManager : MonoBehaviour
     {
         //Sets up the car objects
         carOrder = new CarController[allCars.Length];
-        InvokeRepeating(nameof(ManualUpdate), 0.5f, 0.5f);
+        InvokeRepeating(nameof(ManualUpdate), 0.1f, 0.1f);
     }
     
     private void ManualUpdate()

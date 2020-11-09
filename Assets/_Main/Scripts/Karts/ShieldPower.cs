@@ -12,7 +12,7 @@ public class ShieldPower : IPower
     public override void Execute()
     {
         //Spawns shield at the specified location
-        cloneShieldPrefab = Instantiate(shieldPrefab,parent.transform.position,Quaternion.identity,parent.transform);
+        cloneShieldPrefab = Instantiate(shieldPrefab,parent.transform.position,Quaternion.Euler(-90,0,0 ),parent.transform);
         //Destroys shield after the duration
         Object.Destroy(cloneShieldPrefab, shieldDuration);
         //Turns off the object

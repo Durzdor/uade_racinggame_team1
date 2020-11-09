@@ -59,6 +59,7 @@
      <Compile Include="Assets\_Main\Scripts\Karts\AbstractTargetFollower.cs" />
      <Compile Include="Assets\_Main\Scripts\Karts\AutoCam.cs" />
      <Compile Include="Assets\_Main\Scripts\Karts\CarController.cs" />
+     <Compile Include="Assets\_Main\Scripts\Karts\IAKart.cs" />
      <Compile Include="Assets\_Main\Scripts\Karts\IAKartController.cs" />
      <Compile Include="Assets\_Main\Scripts\Karts\IPower.cs" />
      <Compile Include="Assets\_Main\Scripts\Karts\ItemBox.cs" />
@@ -68,6 +69,7 @@
      <Compile Include="Assets\_Main\Scripts\Karts\MissilePower.cs" />
      <Compile Include="Assets\_Main\Scripts\Karts\PivotBasedCameraRig.cs" />
      <Compile Include="Assets\_Main\Scripts\Karts\ShieldPower.cs" />
+     <Compile Include="Assets\_Main\Scripts\Karts\waypointTest.cs" />
      <Compile Include="Assets\_Main\Scripts\Menu\CreditsMenuManager.cs" />
      <Compile Include="Assets\_Main\Scripts\Menu\CursorImage.cs" />
      <Compile Include="Assets\_Main\Scripts\Menu\DeathMenuManager.cs" />
