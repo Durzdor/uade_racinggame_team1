@@ -7,6 +7,8 @@ public class ItemBox : MonoBehaviour
 {
     public KartPlayer _kartPlayer;
     public AudioSource itemBoxAudio;
+
+    private IAKart _iaKart;
     
     public enum Powers 
     {
@@ -68,17 +70,26 @@ public class ItemBox : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         //Checks if it has the corresponding tag
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Car"))
         {
-            //PLay ItemBox Sound when collides with player
+            //Play ItemBox Sound when it enters collision
             itemBoxAudio.Play();
-            //Runs the roulette to choose the power
-            _kartPlayer.StorePower(_roulette.Run(_dic));
             //Turns off the mesh and collider to simulate destruction
             _meshRenderer.enabled = false;
             _boxCollider.enabled = false;
-            //Respawns in the same space
+            //Respawn in the same space
             Invoke(nameof(Respawn), respawnTimer);
+            //Runs the roulette to choose the power
+            if (other.name == "MainPlayer")
+            {
+                _kartPlayer.StorePower(_roulette.Run(_dic));
+                return;
+            }
+            if (other.GetComponent<IAKart>() != null)
+            {
+                _iaKart = other.GetComponent<IAKart>();
+                _iaKart.StorePower(_roulette.Run(_dic));
+            }
         }
     }
     

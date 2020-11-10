@@ -13,18 +13,22 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Menu/MainMenuController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Utilities/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Menu/DeathMenuManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Karts/IADriveState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Menu/CursorImage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Utilities/BFS.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Karts/CarController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Karts/IPower.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Karts/ItemBox.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Karts/KartController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Karts/IAKart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Karts/waypointTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Karts/KartPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Utilities/GameTimer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6A8DC567-3A4E-4788-B5AC-1561569747AB/8a/c07e0115/Input.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Karts/IAStunState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Karts/IAKartController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Karts/MissilePower.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Karts/IAStopState.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -45,14 +49,18 @@
         <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Player/CarController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Main/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Karts/waypointTest.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Karts/IAKart.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Karts/IAKartController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Utilities/GameTimer.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Karts/IAStopState.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Karts/IAStunState.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Karts/IADriveState.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Karts/ItemBox.cs" />
         <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Karts/ShieldPower.cs" />
         <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Karts/MissilePower.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Karts/CarController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Utilities/GameTimer.cs" />
         <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Utilities/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Karts/CarController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Karts/KartPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Karts/IAKartController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Karts/IAKart.cs" />
       </list>
     </option>
   </component>
@@ -100,6 +108,7 @@
       <workItem from="1604837402394" duration="6435000" />
       <workItem from="1604914872058" duration="13975000" />
       <workItem from="1604947877618" duration="6234000" />
+      <workItem from="1605020682679" duration="18018000" />
     </task>
     <servers />
   </component>
@@ -107,5 +116,11 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1244" y="217" key="RiderGenerateDialog" timestamp="1605022398794">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1244" y="217" key="RiderGenerateDialog/0.0.1920.1080/-1920.40.1920.1040@0.0.1920.1080" timestamp="1605022398794" />
   </component>
 </project>

@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class KartPlayer : MonoBehaviour
 {
     private Rigidbody _rb;
-    private CarController _car;
+    private CarController _carController;
     
     public ShieldPower shieldPower;
     public MissilePower missilePower;
@@ -20,7 +20,7 @@ public class KartPlayer : MonoBehaviour
     private void Awake()
     {
         _rb = GetComponent<Rigidbody>();
-        _car = GetComponent<CarController>();
+        _carController = GetComponent<CarController>();
     }
 
     private void Start()
@@ -44,10 +44,10 @@ public class KartPlayer : MonoBehaviour
     private void Update()
     {
         Power();
-        MyPos();
+        PositionDisplay();
     }
 
-    //Power
+    //Power use
     private void Power()
     {
         //Checks to see if a power is available
@@ -55,7 +55,7 @@ public class KartPlayer : MonoBehaviour
         //Activates the stored power
         if (Input.GetKeyDown(KeyCode.V))
         {
-            Debug.Log("V");
+            // Use the power that is stored
             switch (storedPower)
             {
                 case (int) ItemBox.Powers.Shieldpower:
@@ -76,13 +76,12 @@ public class KartPlayer : MonoBehaviour
         if (storedPower != 0) return;
         storedPower = power;
     }
-
-    public void MyPos()
+    
+    // Display the current position
+    private void PositionDisplay()
     {
-        CarController[] order = GameManager.Instance.carOrder;
-        var position = Array.IndexOf(order, _car) + 1 ;
-        //var position = _car.GetCarPosition(GameManager.Instance.allCars);
-        string currentPos = position.ToString();
-        myPosition.text = currentPos;
+        var positionDisplay = _carController.GetCarPosition(GameManager.Instance.allCars);
+        string positionString = positionDisplay.ToString();
+        myPosition.text = positionString;
     }
 }

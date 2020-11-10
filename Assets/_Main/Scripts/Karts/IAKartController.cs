@@ -5,63 +5,58 @@ using UnityEngine.SocialPlatforms.GameCenter;
 
 public class IAKartController : MonoBehaviour
 {
-    private IAKart _ia;
-
-    // Waypoint min distance before the next
-    [SerializeField] private float distance = 0.1f;
-    // Waypoint offset radius
-    [SerializeField] private float radius = 75f;
-    // Kart Speed for testing
-    [SerializeField] private float speed = 75f;
-
-    private Vector3 offset;
-    private int _nextWaypoint;
-    private int _waypointModifier = 1;
+    private IAKart _iaKart;
+    private FSM<string> _fsm;
+    private INode _init;
 
     private void Awake()
     {
-        _ia = GetComponent<IAKart>();
+        _iaKart = GetComponent<IAKart>();
     }
 
+    private void Start()
+    {
+        FiniteStateMachineInitialization();
+    }
+    
+    // Finite state machine initialization
+    private void FiniteStateMachineInitialization()
+    {
+        // Loads the finite state machine
+        _fsm = new FSM<string>();
+        // Adds each state to the finite state machine
+        IADriveState<string> iaDrive = new IADriveState<string>(_fsm,"Stun","Stop",_iaKart);
+        IAStunState<string> iaStun = new IAStunState<string>(_fsm,"Drive",_iaKart);
+        IAStopState<string> iaStop = new IAStopState<string>(_fsm,"Drive",_iaKart);
+        // Adds each transition between states of the finite state machine
+        iaDrive.AddTransition("Stun", iaStun);
+        iaDrive.AddTransition("Stop", iaStop);
+        iaStun.AddTransition("Drive",iaDrive);
+        iaStop.AddTransition("Drive", iaDrive);
+        // Sets the initial state of the finite state machine
+        _fsm.SetInit(iaStop); 
+    }
+    
     public void Update()
     {
-        Offset();
-        RaceWaypoints();
+        // Updates the finite state machine
+        _fsm.OnUpdate();
+        // Updates the decision tree
+        DecisionTreeUpdate();
+        _init.Execute();
     }
 
-    //Generates randomness in the route through an offset
-    private void Offset()
+    private void DecisionTreeUpdate()
     {
-        // Lock the offset to the current waypoint
-        if (offset != Vector3.zero) return;
-        offset = Random.insideUnitSphere * radius;
-        offset.y = 0;
-    }
+        ActionNode usePower = new ActionNode(_iaKart.UsePower);
+        ActionNode stopTree = new ActionNode(_iaKart.StopTree);
+        ActionNode useDetector = new ActionNode(_iaKart.UseDetector);
+        QuestionNode secondPosition = new QuestionNode(_iaKart.SecondPosition, useDetector, usePower);
+        QuestionNode firstPosition = new QuestionNode(_iaKart.FirstPosition, stopTree, usePower);
+        QuestionNode missilePower = new QuestionNode(_iaKart.MissilePower, firstPosition, secondPosition);
+        QuestionNode hasPower = new QuestionNode(_iaKart.HasPower, missilePower, stopTree);
 
-    private void RaceWaypoints()
-    {
-        // Next waypoint
-        Transform point = GameManager.Instance.waypoints[_nextWaypoint];
-        // Next waypoint position
-        Vector3 pointPosition = point.position + offset;
-        pointPosition.y = _ia.transform.position.y;
-        // Next waypoint direction
-        Vector3 dir = pointPosition - _ia.transform.position;
-        // Next waypoint magnitude
-        if (dir.magnitude < distance)
-        {
-            // What is the next waypoint 
-            if (_nextWaypoint + _waypointModifier >= GameManager.Instance.waypoints.Count || _nextWaypoint + _waypointModifier < 0)
-            {
-                // If the next waypoint is out of the array sets the next waypoint to the first
-                _nextWaypoint = -1;
-            }
-            // Update to the next waypoint
-            _nextWaypoint += _waypointModifier;
-            // Reset the offset for the next waypoint
-            offset = Vector3.zero;
-        }
-        // Movement call
-        _ia.Move(dir.normalized,speed);
+        // Selects the initial node
+        _init = hasPower;
     }
 }

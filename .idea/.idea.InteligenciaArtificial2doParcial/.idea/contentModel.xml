@@ -12,8 +12,11 @@
               <e p="AbstractTargetFollower.cs" t="Include" />
               <e p="AutoCam.cs" t="Include" />
               <e p="CarController.cs" t="Include" />
+              <e p="IADriveState.cs" t="Include" />
               <e p="IAKart.cs" t="Include" />
               <e p="IAKartController.cs" t="Include" />
+              <e p="IAStopState.cs" t="Include" />
+              <e p="IAStunState.cs" t="Include" />
               <e p="IPower.cs" t="Include" />
               <e p="ItemBox.cs" t="Include" />
               <e p="KartController.cs" t="Include" />

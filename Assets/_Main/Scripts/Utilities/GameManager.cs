@@ -12,7 +12,14 @@ public class GameManager : MonoBehaviour
     public Transform lastCheckpointInLap;
     public CarController[] allCars;
     public CarController[] carOrder;
-    
+
+    public Text firstPlace;
+    public Text secondPlace;
+    public Text thirdPlace;
+    public Text fourthPlace;
+    public Text fifthPlace;
+    public Text sixthPlace;
+
     private void Awake()
     {
         if (Instance == null)
@@ -28,14 +35,6 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-
-        LoadStats();
-    }
-
-    private void LoadStats()
-    {
-        Debug.Log("Gamemanager test");
-        
     }
 
     private void Start()
@@ -43,6 +42,7 @@ public class GameManager : MonoBehaviour
         //Sets up the car objects
         carOrder = new CarController[allCars.Length];
         InvokeRepeating(nameof(ManualUpdate), 0f, 0.1f);
+        InvokeRepeating(nameof(DisplayPositions), 3f, 0.1f);
     }
     
     private void ManualUpdate()
@@ -55,6 +55,23 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log($"{carOrder[0]} esta primero");
+        
+    }
+
+    private void DisplayPositions()
+    {
+        var firPlace = carOrder[0].name;
+        var secPlace = carOrder[1].name;
+        var thrPlace = carOrder[2].name;
+        var forPlace = carOrder[3].name;
+        var fifPlace = carOrder[4].name;
+        var sixPlace = carOrder[5].name;
+
+        firstPlace.text = firPlace;
+        secondPlace.text = secPlace;
+        thirdPlace.text = thrPlace;
+        fourthPlace.text = forPlace;
+        fifthPlace.text = fifPlace;
+        sixthPlace.text = sixPlace;
     }
 }

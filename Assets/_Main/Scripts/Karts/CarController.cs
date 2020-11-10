@@ -60,12 +60,12 @@ public class CarController : MonoBehaviour
             if (car.currentLap > lap)
             {
                 position++;
-                break;
+                continue;
             }
             if (car.currentWaypoint > waypoint && car.currentLap == lap)
             {
                 position++;
-                break;
+                continue;
             }
             if (car.GetDistance() > distance && car.currentWaypoint == waypoint && car.currentLap == lap)
             {

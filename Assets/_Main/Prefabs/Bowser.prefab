@@ -451,6 +451,36 @@ Transform:
   m_Father: {fileID: 8168158931223448991}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3798399765921641213
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8377500397856979880}
+  m_Layer: 0
+  m_Name: MissileLauncher
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8377500397856979880
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3798399765921641213}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.6, z: 23.7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1069501253338148351}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3827868682481762840
 GameObject:
   m_ObjectHideFlags: 0
@@ -495,9 +525,11 @@ GameObject:
   - component: {fileID: 395580891947988896}
   - component: {fileID: 371760424}
   - component: {fileID: 371760425}
+  - component: {fileID: 1794443695293322495}
+  - component: {fileID: 1259961536367578071}
   m_Layer: 0
   m_Name: Bowser
-  m_TagString: Untagged
+  m_TagString: Car
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -518,6 +550,7 @@ Transform:
   - {fileID: 1394122386116681016}
   - {fileID: 537308715336087940}
   - {fileID: 7923540946628225256}
+  - {fileID: 8377500397856979880}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -582,6 +615,8 @@ MonoBehaviour:
   mask:
     serializedVersion: 2
     m_Bits: 0
+  shieldPower: {fileID: 1259961536367578071}
+  missilePower: {fileID: 1794443695293322495}
   range: 1
   angle: 1
   gravityFallSpeed: 30
@@ -603,6 +638,41 @@ MonoBehaviour:
   distance: 35
   radius: 75
   speed: 250
+--- !u!114 &1794443695293322495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4074904862043201516}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5486edbfcafa98641b784d11543f6ed4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parent: {fileID: 8377500397856979880}
+  redShellAudio: {fileID: 0}
+  missilePrefab: {fileID: 4594707484173273089, guid: 7351a75e028d93c44b323fd063bd234d,
+    type: 3}
+  missileDuration: 10
+  missileOffset: {x: 0, y: 1, z: 0}
+--- !u!114 &1259961536367578071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4074904862043201516}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02f2cce31799698439a4f9a12e263b4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parent: {fileID: 859575558580920129}
+  drownedAudio: {fileID: 0}
+  shieldPrefab: {fileID: 6194497555830946801, guid: 6bd06f9fef1c5bf4f88fe79868c148f2,
+    type: 3}
+  shieldDuration: 2
 --- !u!1 &4129753604988997178
 GameObject:
   m_ObjectHideFlags: 0
