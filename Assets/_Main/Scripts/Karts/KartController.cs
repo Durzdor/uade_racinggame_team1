@@ -18,6 +18,7 @@ public class KartController : MonoBehaviour
     private bool isRearview;
     private float currentSpeed;
     private float steeringAngle;
+    private bool lockStats;
     
     //How fast it turns
     [SerializeField] private float steeringSpeed = 45f;
@@ -43,26 +44,15 @@ public class KartController : MonoBehaviour
     //Functions update
     private void Update()
     {
-        GetInput();
         Pause();
+        if (LockInput() != false) return;
+        GetInput();
         RearviewCamera();
         SteeringFormula();
         BrakingFormula();
         VelocityFormula();
-
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            if(!kartSound.isPlaying)
-            {
-                kartSound.Play();
-            }
-        }
-
-        if (Input.GetKeyUp(KeyCode.W))
-        {
-            kartSound.Stop();
-        }
-
+        if (lockStats != false) return;
+        IsPlayerFinished();
     }
     
     //Input detections
@@ -126,11 +116,19 @@ public class KartController : MonoBehaviour
         //Goes forward
         if (verticalInput > 0)
         {
+            if (!kartSound.isPlaying)
+            {
+                kartSound.Play();
+            }
             currentSpeed += baseSpeed;
         }
         //Goes in reverse
         else if (verticalInput < 0)
         {
+            if (!kartSound.isPlaying)
+            {
+                kartSound.Play();
+            }
             currentSpeed -= baseSpeed;
         }
         //Deceleration
@@ -138,11 +136,31 @@ public class KartController : MonoBehaviour
         {
             currentSpeed -= currentSpeed * decelerationSpeed;
             //Condition to stop drifting
-            if (currentSpeed < 2f) currentSpeed = 0;
+            if (currentSpeed < 25f)
+            {
+                currentSpeed = 0;
+                kartSound.Stop();
+            }
         }
 
         //Sets maximum speeds for forward/reverse
         currentSpeed = Mathf.Clamp(currentSpeed, maxReverseSpeed, maxForwardSpeed);
+    }
+    
+    // Checks if the player is input locked
+    private bool LockInput()
+    {
+        var input = _kartPlayer.blockInput;
+        return input;
+    }
+
+    private void IsPlayerFinished()
+    {
+        if (_kartPlayer.PlayerCurrentLap() == GameManager.Instance.maxLaps)
+        {
+            _kartPlayer.PlayerEndStats();
+            lockStats = true;
+        }
     }
     
     //Resolves unity physics

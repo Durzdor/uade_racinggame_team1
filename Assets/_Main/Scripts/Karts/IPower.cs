@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class IPower : MonoBehaviour
+public class Power : MonoBehaviour
 {
     public Transform parent;
+    public AudioSource audioSource;
 
     private void Awake()
     {
+        audioSource = GetComponent<AudioSource>();
         parent = gameObject.transform;
     }
 
