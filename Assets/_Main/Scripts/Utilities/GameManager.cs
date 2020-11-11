@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,10 +9,10 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
     
     public List<Transform> waypoints;
-
     public Transform lastCheckpointInLap;
     public CarController[] allCars;
     public CarController[] carOrder;
+    public int maxLaps;
 
     public Text firstPlace;
     public Text secondPlace;
@@ -19,6 +20,8 @@ public class GameManager : MonoBehaviour
     public Text fourthPlace;
     public Text fifthPlace;
     public Text sixthPlace;
+
+    private Dictionary<int, string> finalPositionTable;
 
     private void Awake()
     {
@@ -35,6 +38,8 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        Cursor.visible = false;
+        finalPositionTable = new Dictionary<int, string>();
     }
 
     private void Start()
@@ -53,11 +58,6 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    private void Update()
-    {
-        
-    }
-
     private void DisplayPositions()
     {
         var firPlace = carOrder[0].name;
@@ -73,5 +73,30 @@ public class GameManager : MonoBehaviour
         fourthPlace.text = forPlace;
         fifthPlace.text = fifPlace;
         sixthPlace.text = sixPlace;
+    }
+
+    public void AfterRaceStats(int pos, string time)
+    {
+        finalPositionTable.Add(pos,time);
+        var text = finalPositionTable[1];
+        var text2 = finalPositionTable[2];
+        var text3 = finalPositionTable[3];
+        var text4 = finalPositionTable[4];
+        var text5 = finalPositionTable[5];
+        var text6 = finalPositionTable[6];
+        AfterRaceDisplayStats(text,text2,text3,text4,text5,text6);
+    }
+
+    private void AfterRaceDisplayStats(string one,string two,string three,string four,string five,string six)
+    {
+        
+    }
+
+    private void StartRaceTimer()
+    {
+        foreach (var car in allCars)
+        {
+            
+        }
     }
 }

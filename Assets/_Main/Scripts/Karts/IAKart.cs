@@ -1,12 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class IAKart : MonoBehaviour
 {
     public LayerMask mask;
     public ShieldPower shieldPower;
     public MissilePower missilePower;
+    public float stunDuration;
+   
+    public bool onRace;
+    public bool raceCompleted;
 
     private Rigidbody _rb;
     private CarController _carController;
@@ -17,7 +22,6 @@ public class IAKart : MonoBehaviour
     [SerializeField] private float gravityFallSpeed = 1f;
     [SerializeField] private float gravMin = 1f;
     [SerializeField] private float gravMax = 1f;
-    [SerializeField] private float steerSpeed = 1f;
 
     private void Awake()
     {
@@ -135,7 +139,35 @@ public class IAKart : MonoBehaviour
         // Changes the current power to 0/null
         storedPower = 0;
     }
+
+    // Save the current position of the IA
+    public int SavePosition()
+    {
+        var savePosition = _carController.GetCarPosition(GameManager.Instance.allCars);
+        return savePosition;
+    }
     
+    // Ask on which lap is currently
+    private int WhichLap()
+    {
+        var thisLap = _carController.currentLap;
+        return thisLap;
+    }
+    
+    // Check if the race is completed
+    public bool LapCheck()
+    {
+        // If current lap = max lap, true
+        if (WhichLap() == GameManager.Instance.maxLaps)
+        {
+            raceCompleted = true;
+        }
+        // If current lap != max lap, false
+        else raceCompleted = false;
+        // Return value
+        return raceCompleted;
+    }
+
     public bool IsInSight(Transform target)
     {
         Vector3 diff = (target.position - transform.position);

@@ -10,6 +10,8 @@ public class KartPlayer : MonoBehaviour
     public ShieldPower shieldPower;
     public MissilePower missilePower;
     public Text myPosition;
+    public Text powerName;
+
     
     private int storedPower = 0;
     
@@ -45,6 +47,7 @@ public class KartPlayer : MonoBehaviour
     {
         Power();
         PositionDisplay();
+        DisplayPower();
     }
 
     //Power use
@@ -75,6 +78,11 @@ public class KartPlayer : MonoBehaviour
     {
         if (storedPower != 0) return;
         storedPower = power;
+    }
+    
+    private void DisplayPower()
+    {
+        powerName.text = Enum.GetName(typeof(ItemBox.Powers),storedPower);
     }
     
     // Display the current position

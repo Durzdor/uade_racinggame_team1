@@ -22,6 +22,11 @@ public class IAStunState<T> : FSMState<T>
 
     public override void Execute()
     {
-        base.Execute();
+        while (_iaKart.stunDuration > 0f)
+        {
+            if (_iaKart.stunDuration == 0f) break;
+            _iaKart.stunDuration -= Time.deltaTime;
+        }
+        _fsm.Transition(_driveInput);
     }
 }

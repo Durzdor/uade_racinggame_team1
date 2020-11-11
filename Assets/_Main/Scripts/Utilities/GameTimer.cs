@@ -8,6 +8,7 @@ public class GameTimer : MonoBehaviour
     public static GameTimer intance;
 
     public Text timeCounter;
+    public string timePlayingStr;
 
     private TimeSpan timePlaying;
     private bool timerGoing;
@@ -44,7 +45,7 @@ public class GameTimer : MonoBehaviour
         {
             elapsedTime += Time.deltaTime;
             timePlaying = TimeSpan.FromSeconds(elapsedTime);
-            string timePlayingStr = "Time: " + timePlaying.ToString("mm':'ss'.'ff");
+            timePlayingStr = "Time: " + timePlaying.ToString("mm':'ss'.'ff");
             timeCounter.text = timePlayingStr;
             yield return null;
         }

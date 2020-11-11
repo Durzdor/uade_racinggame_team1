@@ -17,7 +17,7 @@ public class CarController : MonoBehaviour
     }
 
     // Use this for initialization
-    public void Initialize()
+    private void Initialize()
     {
         currentWaypoint = 0;
         currentLap = 0;
@@ -44,7 +44,7 @@ public class CarController : MonoBehaviour
         }
     }
 
-    public float GetDistance()
+    private float GetDistance()
     {
         return (transform.position - lastWaypoint.position).magnitude;
     }

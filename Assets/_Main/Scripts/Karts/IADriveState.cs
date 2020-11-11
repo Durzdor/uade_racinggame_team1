@@ -51,6 +51,10 @@ public class IADriveState<T> : FSMState<T>
 
     public override void Execute()
     {
+        if (_iaKart.LapCheck())
+        {
+            _fsm.Transition(_stopInput);
+        }
         //Generates Offset to the waypoint
         Offset();
         // Next waypoint
