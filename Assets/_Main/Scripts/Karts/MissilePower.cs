@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MissilePower : Power
+public class MissilePower : IPower
 {
     private GameObject cloneMissilePrefab;
-    public AudioClip soundClip;
+    public AudioSource audioSource;
     
     [SerializeField] private GameObject missilePrefab;
     [SerializeField] private float missileDuration = 10f;
@@ -13,7 +13,6 @@ public class MissilePower : Power
     public override void Execute()
 
     {
-        audioSource.clip = soundClip;
         audioSource.Play();
         //Power
         Debug.Log("misil");

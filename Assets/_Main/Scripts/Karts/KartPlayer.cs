@@ -1,6 +1,5 @@
 ﻿using System;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class KartPlayer : MonoBehaviour
@@ -12,7 +11,7 @@ public class KartPlayer : MonoBehaviour
     public MissilePower missilePower;
     public Text myPosition;
     public Text powerName;
-    public bool blockInput;
+
     
     private int storedPower = 0;
     
@@ -24,7 +23,6 @@ public class KartPlayer : MonoBehaviour
     {
         _rb = GetComponent<Rigidbody>();
         _carController = GetComponent<CarController>();
-        blockInput = true;
     }
 
     private void Start()
@@ -82,7 +80,6 @@ public class KartPlayer : MonoBehaviour
         storedPower = power;
     }
     
-    // Display current power
     private void DisplayPower()
     {
         powerName.text = Enum.GetName(typeof(ItemBox.Powers),storedPower);
@@ -94,19 +91,5 @@ public class KartPlayer : MonoBehaviour
         var positionDisplay = _carController.GetCarPosition(GameManager.Instance.allCars);
         string positionString = positionDisplay.ToString();
         myPosition.text = positionString;
-    }
-    
-    // Check the player's current lap
-    public int PlayerCurrentLap()
-    {
-        var lap = _carController.currentLap;
-        return lap;
-    }
-
-    public void PlayerEndStats()
-    {
-        var finishPosition = _carController.GetCarPosition(GameManager.Instance.allCars);
-        var totalTime = GameTimer.intance.timePlayingStr;
-        GameManager.Instance.AfterRaceStats(finishPosition, totalTime,this.name); 
     }
 }
