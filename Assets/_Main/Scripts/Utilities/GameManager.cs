@@ -1,6 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
@@ -12,16 +14,18 @@ public class GameManager : MonoBehaviour
     public Transform lastCheckpointInLap;
     public CarController[] allCars;
     public CarController[] carOrder;
-    public int maxLaps;
+    public int maxLaps = 3;
+    public float startupCountdown = 5f;
 
-    public Text firstPlace;
-    public Text secondPlace;
-    public Text thirdPlace;
-    public Text fourthPlace;
-    public Text fifthPlace;
-    public Text sixthPlace;
+    public Text[] endRaceStats;
+    public Text[] currentPositions;
+    public GameObject endGameStatDisplay;
+    public GameObject playerUI;
 
     private Dictionary<int, string> finalPositionTable;
+    private List<string> kartNames;
+    private bool playing;
+    private bool raceOver;
 
     private void Awake()
     {
@@ -40,6 +44,9 @@ public class GameManager : MonoBehaviour
         }
         Cursor.visible = false;
         finalPositionTable = new Dictionary<int, string>();
+        kartNames = new List<string>();
+        endGameStatDisplay.SetActive(false);
+        playerUI.SetActive(true);
     }
 
     private void Start()
@@ -49,7 +56,12 @@ public class GameManager : MonoBehaviour
         InvokeRepeating(nameof(ManualUpdate), 0f, 0.1f);
         InvokeRepeating(nameof(DisplayPositions), 3f, 0.1f);
     }
-    
+
+    private void Update()
+    {
+        StartRaceTimer();
+    }
+
     private void ManualUpdate()
     {
         foreach (CarController car in allCars)
@@ -58,45 +70,87 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    // Display current positions
     private void DisplayPositions()
     {
-        var firPlace = carOrder[0].name;
-        var secPlace = carOrder[1].name;
-        var thrPlace = carOrder[2].name;
-        var forPlace = carOrder[3].name;
-        var fifPlace = carOrder[4].name;
-        var sixPlace = carOrder[5].name;
-
-        firstPlace.text = firPlace;
-        secondPlace.text = secPlace;
-        thirdPlace.text = thrPlace;
-        fourthPlace.text = forPlace;
-        fifthPlace.text = fifPlace;
-        sixthPlace.text = sixPlace;
+        for (int i = 0; i < 6; i++)
+        {
+            foreach (var car in carOrder)
+            {
+                currentPositions[i].text = carOrder[i].name;
+            }
+        }
     }
 
-    public void AfterRaceStats(int pos, string time)
+    // Save the values of the race
+    public void AfterRaceStats(int pos, string time, string name)
     {
+        // Add each value to a dictionary
         finalPositionTable.Add(pos,time);
-        var text = finalPositionTable[1];
-        var text2 = finalPositionTable[2];
-        var text3 = finalPositionTable[3];
-        var text4 = finalPositionTable[4];
-        var text5 = finalPositionTable[5];
-        var text6 = finalPositionTable[6];
-        AfterRaceDisplayStats(text,text2,text3,text4,text5,text6);
+        kartNames.Insert(pos-1,name);
+        // When the dictionary saves every car stats
+        if (finalPositionTable.ContainsKey(allCars.Length))
+        {
+            // Update all endgame 
+            AfterRaceDisplayStats();
+        }
     }
 
-    private void AfterRaceDisplayStats(string one,string two,string three,string four,string five,string six)
+    private void AfterRaceDisplayStats()
     {
-        
+        // Hide the player UI
+        playerUI.SetActive(false);
+        // Show end game stats
+        endGameStatDisplay.SetActive(true);
+        // Show the cursor
+        Cursor.visible = true;
+        // Stop the timer
+        GameTimer.intance.EndTimer();
+        // Check the dictionary for the values to display
+        foreach (var stat in finalPositionTable)
+        {
+            endRaceStats[stat.Key - 1].text = $"{stat.Key}: {kartNames[stat.Key - 1]} - {stat.Value}";
+        }
     }
 
+    // Timer to start the race
     private void StartRaceTimer()
     {
-        foreach (var car in allCars)
+        if (playing) return;
+        if (raceOver) return;
+        // If it is higher than 0 subtract
+        if (startupCountdown > 0)
         {
-            
+            startupCountdown -= Time.deltaTime;
         }
+        // If it reaches 0 or lower start the race
+        if (startupCountdown <= 0)
+        {
+            // Check every car and let them start
+            foreach (var car in allCars)
+            {
+                var ia = car.GetComponent<IAKart>();
+                var player = car.GetComponent<KartPlayer>();
+                // Check ia cars
+                if (ia != null)
+                {
+                    ia.onRace = true;
+                }
+                // Check player car
+                else if (player != null)
+                {
+                    player.blockInput = false;
+                }
+            }
+            // Start the global timer
+            GameTimer.intance.BeginTimer();
+            playing = true;
+        }
+    }
+    
+    // Go back to main menu
+    public void EndRace()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 }

@@ -30,9 +30,12 @@ public class IAStopState<T> : FSMState<T>
             var totalTime = GameTimer.intance.timePlayingStr;
             // Save last position
             var finishPosition = _iaKart.SavePosition();
+            // Save name
+            var kartName = _iaKart.name;
             // Send info to the game manager
-            GameManager.Instance.AfterRaceStats(finishPosition, totalTime);
+            GameManager.Instance.AfterRaceStats(finishPosition, totalTime, kartName);
             //TP a un podio quizas
+            // Variable to only use this IF once per car
             _iaKart.raceCompleted = false;
         }
         // Checks for the start of the race
@@ -42,5 +45,6 @@ public class IAStopState<T> : FSMState<T>
             _fsm.Transition(_driveInput);
             _iaKart.onRace = false;
         }
+        Debug.Log("Race Finished");
     }
 }
