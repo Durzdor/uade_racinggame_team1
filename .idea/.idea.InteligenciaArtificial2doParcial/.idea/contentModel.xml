@@ -20,12 +20,10 @@
               <e p="ItemBox.cs" t="Include" />
               <e p="KartController.cs" t="Include" />
               <e p="KartPlayer.cs" t="Include" />
-              <e p="MissileAudio.cs" t="Include" />
               <e p="MissileBehaviour.cs" t="Include" />
               <e p="MissilePower.cs" t="Include" />
               <e p="PivotBasedCameraRig.cs" t="Include" />
               <e p="Power.cs" t="Include" />
-              <e p="ShieldAudio.cs" t="Include" />
               <e p="ShieldPower.cs" t="Include" />
               <e p="waypointTest.cs" t="Include" />
             </e>

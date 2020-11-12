@@ -477,7 +477,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3070817733506390936}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: e1b272979f4cbaa44935944e0557ed42, type: 3}
@@ -723,6 +723,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parent: {fileID: 7170948220413197164}
+  audioSource: {fileID: 0}
+  name: 
   shieldPrefab: {fileID: 6194497555830946801, guid: 6bd06f9fef1c5bf4f88fe79868c148f2,
     type: 3}
   shieldDuration: 3
@@ -739,6 +741,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parent: {fileID: 1690825969}
+  audioSource: {fileID: 0}
+  name: 
   missilePrefab: {fileID: 4594707484173273089, guid: 7351a75e028d93c44b323fd063bd234d,
     type: 3}
   missileDuration: 10
@@ -765,7 +769,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6076651268483526782}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: bdc74bd29fe667c489451dd4f7a103ed, type: 3}
@@ -814,7 +818,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0.033
+      value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0

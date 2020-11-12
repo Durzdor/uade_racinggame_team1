@@ -67,12 +67,10 @@
      <Compile Include="Assets\_Main\Scripts\Karts\ItemBox.cs" />
      <Compile Include="Assets\_Main\Scripts\Karts\KartController.cs" />
      <Compile Include="Assets\_Main\Scripts\Karts\KartPlayer.cs" />
-     <Compile Include="Assets\_Main\Scripts\Karts\MissileAudio.cs" />
      <Compile Include="Assets\_Main\Scripts\Karts\MissileBehaviour.cs" />
      <Compile Include="Assets\_Main\Scripts\Karts\MissilePower.cs" />
      <Compile Include="Assets\_Main\Scripts\Karts\PivotBasedCameraRig.cs" />
      <Compile Include="Assets\_Main\Scripts\Karts\Power.cs" />
-     <Compile Include="Assets\_Main\Scripts\Karts\ShieldAudio.cs" />
      <Compile Include="Assets\_Main\Scripts\Karts\ShieldPower.cs" />
      <Compile Include="Assets\_Main\Scripts\Karts\waypointTest.cs" />
      <Compile Include="Assets\_Main\Scripts\Menu\CreditsMenuManager.cs" />
