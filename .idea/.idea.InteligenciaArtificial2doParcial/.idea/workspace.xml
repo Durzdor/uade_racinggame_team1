@@ -9,27 +9,27 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Menu/CreditsMenuManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Karts/ShieldPower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Menu/MainMenuController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Utilities/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Menu/DeathMenuManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Karts/IADriveState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Utilities/FSM.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Menu/CursorImage.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Utilities/BFS.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Utilities.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Karts/ShieldAudio.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Karts/CarController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Karts/IPower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Karts/ItemBox.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Karts/KartController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Karts/IAKart.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Karts/waypointTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Karts/KartPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Utilities/GameTimer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Karts/MissileAudio.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Karts/MissilePower.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Karts/ShieldPower.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Utilities/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Karts/Power.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Karts/waypointTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6A8DC567-3A4E-4788-B5AC-1561569747AB/8a/c07e0115/Input.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Karts/IAStunState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Karts/IAKartController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Karts/MissilePower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Main/Scripts/Karts/IAStopState.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -55,16 +55,19 @@
         <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Karts/IAKartController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Karts/IADriveState.cs" />
         <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Karts/IAKart.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Karts/CarController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Utilities/GameTimer.cs" />
         <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Karts/IAStopState.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Karts/KartPlayer.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Utilities/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Karts/KartController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Karts/ItemBox.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Karts/ShieldPower.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Karts/CarController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Karts/KartPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Utilities/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Karts/IPower.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Karts/MissileAudio.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Karts/ShieldAudio.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Karts/Power.cs" />
         <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Karts/MissilePower.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Main/Scripts/Karts/ShieldPower.cs" />
       </list>
     </option>
   </component>
@@ -116,6 +119,7 @@
       <workItem from="1605047090277" duration="6446000" />
       <workItem from="1605096660329" duration="9907000" />
       <workItem from="1605108559176" duration="19661000" />
+      <workItem from="1605132220436" duration="10394000" />
     </task>
     <servers />
   </component>

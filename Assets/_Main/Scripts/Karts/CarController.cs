@@ -7,8 +7,9 @@ public class CarController : MonoBehaviour
     public int currentWaypoint;
     public int currentLap;
     public Transform lastWaypoint;
-    public int nbWaypoint; //Set the amount of Waypoints
-    
+    //Set the amount of Waypoints
+    public int nbWaypoint;
+
     private int cpt_waypoint = 0;
 
     private void Start()

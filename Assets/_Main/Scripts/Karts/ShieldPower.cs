@@ -4,22 +4,29 @@ using UnityEngine;
 
 public class ShieldPower : Power
 {
-    public AudioClip soundClip;
-    
     private GameObject cloneShieldPrefab;
     
     [SerializeField] private GameObject shieldPrefab;
     [SerializeField] private float shieldDuration = 2f;
-    
+
+    public override void Awake()
+    {
+        base.Awake();
+        audioSource = shieldPrefab.GetComponent<AudioSource>();
+    }
+
     public override void Execute()
     {
-        audioSource.clip = soundClip;
-        audioSource.Play();
-        //Spawns shield at the specified location
+        // Spawns shield at the specified location
         cloneShieldPrefab = Instantiate(shieldPrefab,parent.transform.position,Quaternion.Euler(-90,0,0 ),parent.transform);
-        //Destroys shield after the duration
+        // Sound effect
+        if (name == "MainPlayer")
+        {
+            audioSource.Play();
+        }
+        // Destroys shield after the duration
         Object.Destroy(cloneShieldPrefab, shieldDuration);
-        //Turns off the object
+        // Turns off the object
         this.enabled = false;
     }
 

@@ -87,7 +87,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7182150062632520162}
-  - component: {fileID: -862996611344495665}
+  - component: {fileID: 548776352569714173}
   m_Layer: 0
   m_Name: Shield
   m_TagString: Untagged
@@ -110,7 +110,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!82 &-862996611344495665
+--- !u!82 &548776352569714173
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -122,13 +122,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 71ddd3c2e03adeb4381fbd8aa96594a2, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.608
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 111
+  Priority: 128
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500

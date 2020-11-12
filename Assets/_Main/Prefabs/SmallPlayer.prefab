@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 731009121}
   - component: {fileID: 731009123}
-  - component: {fileID: 731009122}
   m_Layer: 0
   m_Name: RearviewCameraScript
   m_TagString: MainCamera
@@ -25,13 +24,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 731009120}
-  m_LocalRotation: {x: 0, y: 0.99940205, z: 0.034576766, w: 0}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: -0.71, y: 11.9, z: 45.19}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2850204037424452310}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: -3.9630003, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!20 &731009123
 Camera:
   m_ObjectHideFlags: 0
@@ -75,29 +74,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!114 &731009122
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 731009120}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79f1c6d0b9698a9498b4bac391fffba4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Target: {fileID: 3668472889536057660}
-  m_AutoTargetPlayer: 0
-  m_UpdateType: 0
-  m_MoveSpeed: 3
-  m_TurnSpeed: 1
-  m_RollSpeed: 0.2
-  m_FollowVelocity: 0
-  m_FollowTilt: 1
-  m_SpinTurnLimit: 90
-  m_TargetVelocityLowerLimit: 4
-  m_SmoothTurnTime: 0.2
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -124,8 +100,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: -0.034577046, y: -0.01025634, z: -0.00035486478, w: 0.9993494}
-  m_LocalPosition: {x: 0.8, y: 16, z: -48.2}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1, y: 22.6, z: -66.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2850204037424452310}
@@ -501,7 +477,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3070817733506390936}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: e1b272979f4cbaa44935944e0557ed42, type: 3}
@@ -614,7 +590,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5992296818895432019}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.56, y: 12.42, z: -35.67}
+  m_LocalPosition: {x: 0.8, y: 18.7, z: -51.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2850204037424452310}
@@ -635,11 +611,11 @@ GameObject:
   - component: {fileID: 6658183335649819044}
   - component: {fileID: 4736067077532683757}
   - component: {fileID: 7376144435713103779}
-  - component: {fileID: 692472205}
   - component: {fileID: 8568629434573507234}
+  - component: {fileID: 692472205}
   m_Layer: 0
   m_Name: SmallPlayer
-  m_TagString: Player
+  m_TagString: Car
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -708,6 +684,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shieldPower: {fileID: 4736067077532683757}
   missilePower: {fileID: 7376144435713103779}
+  myPosition: {fileID: 0}
+  powerName: {fileID: 0}
+  blockInput: 0
   gravityFallSpeed: 35
   gravMin: -230
   gravMax: 230
@@ -730,7 +709,7 @@ MonoBehaviour:
   maxForwardSpeed: 279
   maxReverseSpeed: -120
   brakingSpeed: 0.607
-  decelerationSpeed: 0.01
+  decelerationSpeed: 0.025
 --- !u!114 &4736067077532683757
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -744,7 +723,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parent: {fileID: 7170948220413197164}
-  drownedAudio: {fileID: 0}
   shieldPrefab: {fileID: 6194497555830946801, guid: 6bd06f9fef1c5bf4f88fe79868c148f2,
     type: 3}
   shieldDuration: 3
@@ -761,11 +739,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parent: {fileID: 1690825969}
-  redShellAudio: {fileID: 0}
   missilePrefab: {fileID: 4594707484173273089, guid: 7351a75e028d93c44b323fd063bd234d,
     type: 3}
   missileDuration: 10
-  missileOffset: {x: 0, y: 0, z: 2}
+--- !u!114 &8568629434573507234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6076651268483526782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fb683dec6c88b949a94950ea41eb00f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentWaypoint: 0
+  currentLap: 0
+  lastWaypoint: {fileID: 0}
+  nbWaypoint: 26
 --- !u!82 &692472205
 AudioSource:
   m_ObjectHideFlags: 0
@@ -780,7 +772,7 @@ AudioSource:
   m_PlayOnAwake: 0
   m_Volume: 0.156
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -862,22 +854,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &8568629434573507234
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6076651268483526782}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0fb683dec6c88b949a94950ea41eb00f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentWaypoint: 0
-  currentLap: 0
-  lastWaypoint: {fileID: 0}
-  nbWaypoint: 26
 --- !u!1 &8249619005357821310
 GameObject:
   m_ObjectHideFlags: 0

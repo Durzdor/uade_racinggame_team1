@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using TMPro;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -15,7 +16,9 @@ public class GameManager : MonoBehaviour
     public CarController[] allCars;
     public CarController[] carOrder;
     public int maxLaps = 3;
+    
     public float startupCountdown = 5f;
+    public AudioSource startSound;
 
     public Text[] endRaceStats;
     public Text[] currentPositions;
@@ -118,6 +121,10 @@ public class GameManager : MonoBehaviour
     {
         if (playing) return;
         if (raceOver) return;
+        if (!startSound.isPlaying)
+        {
+            startSound.Play();
+        }
         // If it is higher than 0 subtract
         if (startupCountdown > 0)
         {

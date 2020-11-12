@@ -72,8 +72,6 @@ public class ItemBox : MonoBehaviour
         //Checks if it has the corresponding tag
         if (other.gameObject.CompareTag("Car"))
         {
-            //Play ItemBox Sound when it enters collision
-            itemBoxAudio.Play();
             //Turns off the mesh and collider to simulate destruction
             _meshRenderer.enabled = false;
             _boxCollider.enabled = false;
@@ -82,6 +80,8 @@ public class ItemBox : MonoBehaviour
             //Runs the roulette to choose the power
             if (other.name == "MainPlayer")
             {
+                //Play ItemBox Sound when it enters collision
+                itemBoxAudio.Play();
                 _kartPlayer.StorePower(_roulette.Run(_dic));
                 return;
             }

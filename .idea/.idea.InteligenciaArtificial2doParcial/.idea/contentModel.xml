@@ -17,27 +17,25 @@
               <e p="IAKartController.cs" t="Include" />
               <e p="IAStopState.cs" t="Include" />
               <e p="IAStunState.cs" t="Include" />
-              <e p="IPower.cs" t="Include" />
               <e p="ItemBox.cs" t="Include" />
               <e p="KartController.cs" t="Include" />
               <e p="KartPlayer.cs" t="Include" />
+              <e p="MissileAudio.cs" t="Include" />
               <e p="MissileBehaviour.cs" t="Include" />
               <e p="MissilePower.cs" t="Include" />
               <e p="PivotBasedCameraRig.cs" t="Include" />
+              <e p="Power.cs" t="Include" />
+              <e p="ShieldAudio.cs" t="Include" />
               <e p="ShieldPower.cs" t="Include" />
               <e p="waypointTest.cs" t="Include" />
             </e>
             <e p="Menu" t="Include">
               <e p="CreditsMenuManager.cs" t="Include" />
               <e p="CursorImage.cs" t="Include" />
-              <e p="DeathMenuManager.cs" t="Include" />
               <e p="MainMenuController.cs" t="Include" />
             </e>
             <e p="Utilities" t="Include">
               <e p="ActionNode.cs" t="Include" />
-              <e p="AgentBFSDFS.cs" t="Include" />
-              <e p="BFS.cs" t="Include" />
-              <e p="DFS.cs" t="Include" />
               <e p="FSM.cs" t="Include" />
               <e p="FSMState.cs" t="Include" />
               <e p="GameManager.cs" t="Include" />
