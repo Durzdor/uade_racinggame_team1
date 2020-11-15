@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2020-11-15T15:54:16.742-03:00
-  initializedAtString: 2020-11-15T15:54:16.742-03:00
+  lastUpdatedAtString: 2020-11-15T14:29:21.295-03:00
+  initializedAtString: 2020-11-15T12:46:36.362-03:00
   currentGitRemote:
     name: origin
     url: https://github.com/Durzdor/InteligenciaArtificial2doParcial.git
