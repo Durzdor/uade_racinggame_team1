@@ -16,7 +16,7 @@ public class IADriveState<T> : FSMState<T>
     [SerializeField] private float radius = 75f;
 
     // Kart Speed for testing
-    [SerializeField] private float speed = 260f;
+    [SerializeField] private float speed = 278f;
 
     // Offset for the waypoints
     private Vector3 offset;

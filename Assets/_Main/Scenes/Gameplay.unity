@@ -1190,12 +1190,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 357134589}
   m_CullTransparentMesh: 0
---- !u!4 &358473297 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7066081823011750509, guid: ac7e044fcca245d41bd4e15e5b72689b,
-    type: 3}
-  m_PrefabInstance: {fileID: 5773106751465652201}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &358481767
 GameObject:
   m_ObjectHideFlags: 0
@@ -1422,6 +1416,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Waluigi
       objectReference: {fileID: 0}
+    - target: {fileID: 9094618659324629669, guid: f3bcd00e0458fc5428907aaa3974f540,
+        type: 3}
+      propertyPath: lastWaypoint
+      value: 
+      objectReference: {fileID: 358481768}
     - target: {fileID: 1623423526800049084, guid: f3bcd00e0458fc5428907aaa3974f540,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1477,11 +1476,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9094618659324629669, guid: f3bcd00e0458fc5428907aaa3974f540,
-        type: 3}
-      propertyPath: lastWaypoint
-      value: 
-      objectReference: {fileID: 358481768}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3bcd00e0458fc5428907aaa3974f540, type: 3}
 --- !u!1001 &428175118
@@ -1861,7 +1855,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cedcead4a935ef747a5ca1394a5c96a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 358473297}
+  player: {fileID: 729685958}
 --- !u!1 &502513581
 GameObject:
   m_ObjectHideFlags: 0
@@ -3029,6 +3023,19 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crash
       objectReference: {fileID: 0}
+    - target: {fileID: 2396085983167099441, guid: 004f3dce14c42bd4da730490c77012f0,
+        type: 3}
+      propertyPath: lastWaypoint
+      value: 
+      objectReference: {fileID: 358481768}
+    - target: {fileID: 21032055, guid: 004f3dce14c42bd4da730490c77012f0, type: 3}
+      propertyPath: myPosition
+      value: 
+      objectReference: {fileID: 357134591}
+    - target: {fileID: 21032055, guid: 004f3dce14c42bd4da730490c77012f0, type: 3}
+      propertyPath: powerName
+      value: 
+      objectReference: {fileID: 396006163}
     - target: {fileID: 1497963117994148279, guid: 004f3dce14c42bd4da730490c77012f0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3084,25 +3091,50 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2396085983167099441, guid: 004f3dce14c42bd4da730490c77012f0,
-        type: 3}
-      propertyPath: lastWaypoint
-      value: 
-      objectReference: {fileID: 358481768}
     - target: {fileID: 21032054, guid: 004f3dce14c42bd4da730490c77012f0, type: 3}
       propertyPath: rearviewCamera
       value: 
       objectReference: {fileID: 855029397}
-    - target: {fileID: 21032055, guid: 004f3dce14c42bd4da730490c77012f0, type: 3}
-      propertyPath: myPosition
-      value: 
-      objectReference: {fileID: 357134591}
-    - target: {fileID: 21032055, guid: 004f3dce14c42bd4da730490c77012f0, type: 3}
-      propertyPath: powerName
-      value: 
-      objectReference: {fileID: 396006163}
+    - target: {fileID: 21032056, guid: 004f3dce14c42bd4da730490c77012f0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 21032056, guid: 004f3dce14c42bd4da730490c77012f0, type: 3}
+      propertyPath: m_Volume
+      value: 0.211
+      objectReference: {fileID: 0}
+    - target: {fileID: 21032056, guid: 004f3dce14c42bd4da730490c77012f0, type: 3}
+      propertyPath: Priority
+      value: 146
+      objectReference: {fileID: 0}
+    - target: {fileID: 523572431, guid: 004f3dce14c42bd4da730490c77012f0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 523572431, guid: 004f3dce14c42bd4da730490c77012f0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 523572431, guid: 004f3dce14c42bd4da730490c77012f0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 523572432, guid: 004f3dce14c42bd4da730490c77012f0, type: 3}
+      propertyPath: m_FollowTilt
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 523572432, guid: 004f3dce14c42bd4da730490c77012f0, type: 3}
+      propertyPath: m_RollSpeed
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 004f3dce14c42bd4da730490c77012f0, type: 3}
+--- !u!4 &729685958 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1497963117994148279, guid: 004f3dce14c42bd4da730490c77012f0,
+    type: 3}
+  m_PrefabInstance: {fileID: 729685957}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &740135533
 GameObject:
   m_ObjectHideFlags: 0
@@ -4380,7 +4412,7 @@ MonoBehaviour:
   - {fileID: 1819146632}
   - {fileID: 181177740}
   carOrder: []
-  maxLaps: 1
+  maxLaps: 3
   startupCountdown: 4.2
   startSound: {fileID: 1078097096}
   endRaceStats:
@@ -6955,6 +6987,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mario
       objectReference: {fileID: 0}
+    - target: {fileID: 4043995380139742002, guid: 0e99817533358234eabdec2233737dbc,
+        type: 3}
+      propertyPath: lastWaypoint
+      value: 
+      objectReference: {fileID: 358481768}
     - target: {fileID: 3323626709525134763, guid: 0e99817533358234eabdec2233737dbc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7010,11 +7047,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4043995380139742002, guid: 0e99817533358234eabdec2233737dbc,
-        type: 3}
-      propertyPath: lastWaypoint
-      value: 
-      objectReference: {fileID: 358481768}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e99817533358234eabdec2233737dbc, type: 3}
 --- !u!1 &1614393398
@@ -7152,6 +7184,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SuperSonic
       objectReference: {fileID: 0}
+    - target: {fileID: 7949201199026531794, guid: efa172f4df2eb834abad05ecf6510c99,
+        type: 3}
+      propertyPath: lastWaypoint
+      value: 
+      objectReference: {fileID: 358481768}
     - target: {fileID: 8827739608208415638, guid: efa172f4df2eb834abad05ecf6510c99,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7207,11 +7244,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7949201199026531794, guid: efa172f4df2eb834abad05ecf6510c99,
-        type: 3}
-      propertyPath: lastWaypoint
-      value: 
-      objectReference: {fileID: 358481768}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: efa172f4df2eb834abad05ecf6510c99, type: 3}
 --- !u!1 &1622412285
