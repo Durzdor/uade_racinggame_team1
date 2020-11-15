@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2020-11-15T16:21:31.832-03:00
-  initializedAtString: 2020-11-15T16:21:31.832-03:00
+  lastUpdatedAtString: 2020-11-15T18:28:59.158-03:00
+  initializedAtString: 2020-11-15T18:28:59.158-03:00
   currentGitRemote:
     name: origin
-    url: https://github.com/Durzdor/InteligenciaArtificial2doParcial.git
+    url: https://github.com/Durzdor/uade_racinggame_team1.git
     login: 
     user: 
     host: 
@@ -30,9 +30,9 @@ MonoBehaviour:
     name: main
     remote:
       name: origin
-      url: https://github.com/Durzdor/InteligenciaArtificial2doParcial.git
+      url: https://github.com/Durzdor/uade_racinggame_team1.git
     trackingBranch: main
   currentConfigRemote:
     name: origin
-    url: https://github.com/Durzdor/InteligenciaArtificial2doParcial.git
+    url: https://github.com/Durzdor/uade_racinggame_team1.git
   currentHead: 

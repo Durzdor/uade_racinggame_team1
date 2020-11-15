@@ -3095,6 +3095,10 @@ PrefabInstance:
       propertyPath: rearviewCamera
       value: 
       objectReference: {fileID: 855029397}
+    - target: {fileID: 21032054, guid: 004f3dce14c42bd4da730490c77012f0, type: 3}
+      propertyPath: steeringSpeed
+      value: 140
+      objectReference: {fileID: 0}
     - target: {fileID: 21032056, guid: 004f3dce14c42bd4da730490c77012f0, type: 3}
       propertyPath: m_Enabled
       value: 1
