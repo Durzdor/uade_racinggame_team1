@@ -78,7 +78,7 @@ public class ItemBox : MonoBehaviour
             //Respawn in the same space
             Invoke(nameof(Respawn), respawnTimer);
             //Runs the roulette to choose the power
-            if (other.name == "MainPlayer")
+            if (other.name == "Crash")
             {
                 //Play ItemBox Sound when it enters collision
                 itemBoxAudio.Play();

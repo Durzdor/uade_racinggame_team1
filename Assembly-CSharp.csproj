@@ -74,7 +74,6 @@
     <Compile Include="Assets\_Main\Scripts\Karts\ItemBox.cs" />
     <Compile Include="Assets\_Main\Scripts\Karts\KartController.cs" />
     <Compile Include="Assets\_Main\Scripts\Karts\KartPlayer.cs" />
-    <Compile Include="Assets\_Main\Scripts\Karts\MissileBehaviour.cs" />
     <Compile Include="Assets\_Main\Scripts\Karts\MissilePower.cs" />
     <Compile Include="Assets\_Main\Scripts\Karts\PivotBasedCameraRig.cs" />
     <Compile Include="Assets\_Main\Scripts\Karts\Power.cs" />

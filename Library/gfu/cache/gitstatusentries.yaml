@@ -13,87 +13,125 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-11-12T23:17:30.075-03:00
-  initializedAtString: 2020-11-12T23:03:36.803-03:00
+  lastUpdatedAtString: 2020-11-15T15:03:38.783-03:00
+  initializedAtString: 2020-11-15T12:46:40.251-03:00
   entries:
+  - path: .vs\InteligenciaArtificial2doParcial\v16\.suo
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\.vs\InteligenciaArtificial2doParcial\v16\.suo
+    projectPath: .vs\InteligenciaArtificial2doParcial\v16\.suo
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assembly-CSharp.csproj
     fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Assembly-CSharp.csproj
     projectPath: Assembly-CSharp.csproj
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assembly-CSharp-Editor-firstpass.csproj
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Assembly-CSharp-Editor-firstpass.csproj
-    projectPath: Assembly-CSharp-Editor-firstpass.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\_Main\Materials\UI\MainMenu\Icon.png
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Assets\_Main\Materials\UI\MainMenu\Icon.png
-    projectPath: Assets\_Main\Materials\UI\MainMenu\Icon.png
+  - path: Assets\_Main\Materials\UI\MainMenu\SplashScreenPic.jpg
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Assets\_Main\Materials\UI\MainMenu\SplashScreenPic.jpg
+    projectPath: Assets\_Main\Materials\UI\MainMenu\SplashScreenPic.jpg
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\_Main\Materials\UI\MainMenu\Icon.png.meta
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Assets\_Main\Materials\UI\MainMenu\Icon.png.meta
-    projectPath: Assets\_Main\Materials\UI\MainMenu\Icon.png.meta
+  - path: Assets\_Main\Materials\UI\MainMenu\SplashScreenPic.jpg.meta
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Assets\_Main\Materials\UI\MainMenu\SplashScreenPic.jpg.meta
+    projectPath: Assets\_Main\Materials\UI\MainMenu\SplashScreenPic.jpg.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\_Main\Scenes\MainMenu.unity
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Assets\_Main\Scenes\MainMenu.unity
-    projectPath: Assets\_Main\Scenes\MainMenu.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\_Main\Scenes\PreMenuScreen.unity
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Assets\_Main\Scenes\PreMenuScreen.unity
-    projectPath: Assets\_Main\Scenes\PreMenuScreen.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\_Main\Scripts\Utilities\MinimapScript.cs
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Assets\_Main\Scripts\Utilities\MinimapScript.cs
-    projectPath: Assets\_Main\Scripts\Utilities\MinimapScript.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\_Main\Scripts\Utilities\MinimapScript.cs.meta
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Assets\_Main\Scripts\Utilities\MinimapScript.cs.meta
-    projectPath: Assets\_Main\Scripts\Utilities\MinimapScript.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\MinimapScript.cs
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Assets\MinimapScript.cs
-    projectPath: Assets\MinimapScript.cs
+  - path: Assets\_Main\Materials\UI\MainMenu\TeamSonicRacing_5 (1).jpg
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Assets\_Main\Materials\UI\MainMenu\TeamSonicRacing_5
+      (1).jpg
+    projectPath: Assets\_Main\Materials\UI\MainMenu\TeamSonicRacing_5 (1).jpg
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Assets\MinimapScript.cs.meta
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Assets\MinimapScript.cs.meta
-    projectPath: Assets\MinimapScript.cs.meta
+  - path: Assets\_Main\Materials\UI\MainMenu\TeamSonicRacing_5 (1).jpg.meta
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Assets\_Main\Materials\UI\MainMenu\TeamSonicRacing_5
+      (1).jpg.meta
+    projectPath: Assets\_Main\Materials\UI\MainMenu\TeamSonicRacing_5 (1).jpg.meta
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: InteligenciaArtificial2doParcial.sln
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\InteligenciaArtificial2doParcial.sln
-    projectPath: InteligenciaArtificial2doParcial.sln
+  - path: Assets\_Main\Prefabs\Bowser.prefab
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Assets\_Main\Prefabs\Bowser.prefab
+    projectPath: Assets\_Main\Prefabs\Bowser.prefab
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\APIUpdater\project-dependencies.graph
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\APIUpdater\project-dependencies.graph
-    projectPath: Library\APIUpdater\project-dependencies.graph
+  - path: Assets\_Main\Prefabs\Crash.prefab
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Assets\_Main\Prefabs\Crash.prefab
+    projectPath: Assets\_Main\Prefabs\Crash.prefab
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Assets\_Main\Prefabs\Mario.prefab
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Assets\_Main\Prefabs\Mario.prefab
+    projectPath: Assets\_Main\Prefabs\Mario.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\_Main\Prefabs\Missile.prefab
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Assets\_Main\Prefabs\Missile.prefab
+    projectPath: Assets\_Main\Prefabs\Missile.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\_Main\Prefabs\SuperSonic.prefab
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Assets\_Main\Prefabs\SuperSonic.prefab
+    projectPath: Assets\_Main\Prefabs\SuperSonic.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\_Main\Prefabs\Waluigi.prefab
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Assets\_Main\Prefabs\Waluigi.prefab
+    projectPath: Assets\_Main\Prefabs\Waluigi.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\_Main\Prefabs\Wario.prefab
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Assets\_Main\Prefabs\Wario.prefab
+    projectPath: Assets\_Main\Prefabs\Wario.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\_Main\Scenes\Gameplay.unity
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Assets\_Main\Scenes\Gameplay.unity
+    projectPath: Assets\_Main\Scenes\Gameplay.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\_Main\Scripts\Karts\ItemBox.cs
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Assets\_Main\Scripts\Karts\ItemBox.cs
+    projectPath: Assets\_Main\Scripts\Karts\ItemBox.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\_Main\Scripts\Karts\MissileBehaviour.cs
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Assets\_Main\Scripts\Karts\MissileBehaviour.cs
+    projectPath: Assets\_Main\Scripts\Karts\MissileBehaviour.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\_Main\Scripts\Karts\MissileBehaviour.cs.meta
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Assets\_Main\Scripts\Karts\MissileBehaviour.cs.meta
+    projectPath: Assets\_Main\Scripts\Karts\MissileBehaviour.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\assetDatabase3
     fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\assetDatabase3
     projectPath: Library\assetDatabase3
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\CrashedAssetImports.txt
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\CrashedAssetImports.txt
+    projectPath: Library\CrashedAssetImports.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\CurrentMaximizeLayout.dwlt
     fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\CurrentMaximizeLayout.dwlt
     projectPath: Library\CurrentMaximizeLayout.dwlt
@@ -106,9 +144,21 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Library\gfu\cache\branches.yaml
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\gfu\cache\branches.yaml
+    projectPath: Library\gfu\cache\branches.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\gfu\cache\gitlocks.yaml
     fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\gfu\cache\gitlocks.yaml
     projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\gfu\cache\gitlog.yaml
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\gfu\cache\gitlog.yaml
+    projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -116,101 +166,65 @@ MonoBehaviour:
     fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\gfu\cache\gittrackingstatus.yaml
     fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\gfu\cache\repoinfo.yaml
     fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\gfu\cache\repoinfo.yaml
     projectPath: Library\gfu\cache\repoinfo.yaml
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\InspectorExpandedItems.asset
     fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\InspectorExpandedItems.asset
     projectPath: Library\InspectorExpandedItems.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
-    projectPath: Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
+  - path: Library\metadata\00\004f3dce14c42bd4da730490c77012f0
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\metadata\00\004f3dce14c42bd4da730490c77012f0
+    projectPath: Library\metadata\00\004f3dce14c42bd4da730490c77012f0
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e.info
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e.info
-    projectPath: Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e.info
+  - path: Library\metadata\00\004f3dce14c42bd4da730490c77012f0.info
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\metadata\00\004f3dce14c42bd4da730490c77012f0.info
+    projectPath: Library\metadata\00\004f3dce14c42bd4da730490c77012f0.info
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\13\136dc24f151211d438acee17aff4e934
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\metadata\13\136dc24f151211d438acee17aff4e934
-    projectPath: Library\metadata\13\136dc24f151211d438acee17aff4e934
+  - path: Library\metadata\0e\0e99817533358234eabdec2233737dbc
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\metadata\0e\0e99817533358234eabdec2233737dbc
+    projectPath: Library\metadata\0e\0e99817533358234eabdec2233737dbc
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\18\181f65fb096cedd4493bc9971257d8b1.info
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\metadata\18\181f65fb096cedd4493bc9971257d8b1.info
-    projectPath: Library\metadata\18\181f65fb096cedd4493bc9971257d8b1.info
+  - path: Library\metadata\0e\0e99817533358234eabdec2233737dbc.info
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\metadata\0e\0e99817533358234eabdec2233737dbc.info
+    projectPath: Library\metadata\0e\0e99817533358234eabdec2233737dbc.info
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\23\23c8bee69b591054094d32918f98facd.info
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\metadata\23\23c8bee69b591054094d32918f98facd.info
-    projectPath: Library\metadata\23\23c8bee69b591054094d32918f98facd.info
+  - path: Library\metadata\2a\2a74b917b7553804599f0d4be3de9515
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\metadata\2a\2a74b917b7553804599f0d4be3de9515
+    projectPath: Library\metadata\2a\2a74b917b7553804599f0d4be3de9515
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
-    projectPath: Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
+    workTreeStatus: 5
+  - path: Library\metadata\2a\2a74b917b7553804599f0d4be3de9515.info
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\metadata\2a\2a74b917b7553804599f0d4be3de9515.info
+    projectPath: Library\metadata\2a\2a74b917b7553804599f0d4be3de9515.info
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\33\33d3e83914445de4d92ab0d77d7fa3f9.info
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\metadata\33\33d3e83914445de4d92ab0d77d7fa3f9.info
-    projectPath: Library\metadata\33\33d3e83914445de4d92ab0d77d7fa3f9.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\48\480071253ef427a4cbc55ef1fedca3e5.info
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\metadata\48\480071253ef427a4cbc55ef1fedca3e5.info
-    projectPath: Library\metadata\48\480071253ef427a4cbc55ef1fedca3e5.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\4b\4ba86e5b8d6657b4184ff6b976ac3d3e.info
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\metadata\4b\4ba86e5b8d6657b4184ff6b976ac3d3e.info
-    projectPath: Library\metadata\4b\4ba86e5b8d6657b4184ff6b976ac3d3e.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5
-    projectPath: Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\5a\5a2082a44711bad4b90f693579c2b336.info
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\metadata\5a\5a2082a44711bad4b90f693579c2b336.info
-    projectPath: Library\metadata\5a\5a2082a44711bad4b90f693579c2b336.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\68\68e6db2ebdc24f95958faec2be5558d6
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\metadata\68\68e6db2ebdc24f95958faec2be5558d6
-    projectPath: Library\metadata\68\68e6db2ebdc24f95958faec2be5558d6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\6e\6e4df876417ac4c4f8862a5234b25615.info
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\metadata\6e\6e4df876417ac4c4f8862a5234b25615.info
-    projectPath: Library\metadata\6e\6e4df876417ac4c4f8862a5234b25615.info
+    workTreeStatus: 5
+  - path: Library\metadata\73\7351a75e028d93c44b323fd063bd234d
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\metadata\73\7351a75e028d93c44b323fd063bd234d
+    projectPath: Library\metadata\73\7351a75e028d93c44b323fd063bd234d
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -220,60 +234,66 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\87\877ef3585573ce44eab899298be23158.info
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\metadata\87\877ef3585573ce44eab899298be23158.info
-    projectPath: Library\metadata\87\877ef3585573ce44eab899298be23158.info
+  - path: Library\metadata\7c\7c705b33be958474e8d6872869e7d5b1
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\metadata\7c\7c705b33be958474e8d6872869e7d5b1
+    projectPath: Library\metadata\7c\7c705b33be958474e8d6872869e7d5b1
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\c0\c0809c8f0ddd4b546939f6fe7a94ac6c.info
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\metadata\c0\c0809c8f0ddd4b546939f6fe7a94ac6c.info
-    projectPath: Library\metadata\c0\c0809c8f0ddd4b546939f6fe7a94ac6c.info
+  - path: Library\metadata\7c\7c705b33be958474e8d6872869e7d5b1.info
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\metadata\7c\7c705b33be958474e8d6872869e7d5b1.info
+    projectPath: Library\metadata\7c\7c705b33be958474e8d6872869e7d5b1.info
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
-    projectPath: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
+  - path: Library\metadata\9e\9efea17b4074c694fbb08d75d2cbb862
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\metadata\9e\9efea17b4074c694fbb08d75d2cbb862
+    projectPath: Library\metadata\9e\9efea17b4074c694fbb08d75d2cbb862
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\ce\cedcead4a935ef747a5ca1394a5c96a0
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\metadata\ce\cedcead4a935ef747a5ca1394a5c96a0
-    projectPath: Library\metadata\ce\cedcead4a935ef747a5ca1394a5c96a0
+  - path: Library\metadata\b8\b81cc3a1e65554d4986eb41f16539f97.info
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\metadata\b8\b81cc3a1e65554d4986eb41f16539f97.info
+    projectPath: Library\metadata\b8\b81cc3a1e65554d4986eb41f16539f97.info
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
-    projectPath: Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
+  - path: Library\metadata\d8\d856c8831fdfe2946b0cf3c64604f536
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\metadata\d8\d856c8831fdfe2946b0cf3c64604f536
+    projectPath: Library\metadata\d8\d856c8831fdfe2946b0cf3c64604f536
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\da\dae2ecee8a704dd59797e26554ff8606
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\metadata\da\dae2ecee8a704dd59797e26554ff8606
-    projectPath: Library\metadata\da\dae2ecee8a704dd59797e26554ff8606
+  - path: Library\metadata\d8\d856c8831fdfe2946b0cf3c64604f536.info
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\metadata\d8\d856c8831fdfe2946b0cf3c64604f536.info
+    projectPath: Library\metadata\d8\d856c8831fdfe2946b0cf3c64604f536.info
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\dd\dd89cf5b9246416f84610a006f916af7
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\metadata\dd\dd89cf5b9246416f84610a006f916af7
-    projectPath: Library\metadata\dd\dd89cf5b9246416f84610a006f916af7
+  - path: Library\metadata\ef\efa172f4df2eb834abad05ecf6510c99
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\metadata\ef\efa172f4df2eb834abad05ecf6510c99
+    projectPath: Library\metadata\ef\efa172f4df2eb834abad05ecf6510c99
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\ea\ea88d25e63ca82041a9cc660df4d529f
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\metadata\ea\ea88d25e63ca82041a9cc660df4d529f
-    projectPath: Library\metadata\ea\ea88d25e63ca82041a9cc660df4d529f
+  - path: Library\metadata\ef\efa172f4df2eb834abad05ecf6510c99.info
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\metadata\ef\efa172f4df2eb834abad05ecf6510c99.info
+    projectPath: Library\metadata\ef\efa172f4df2eb834abad05ecf6510c99.info
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\ea\ea88d25e63ca82041a9cc660df4d529f.info
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\metadata\ea\ea88d25e63ca82041a9cc660df4d529f.info
-    projectPath: Library\metadata\ea\ea88d25e63ca82041a9cc660df4d529f.info
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\f3\f3bcd00e0458fc5428907aaa3974f540
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\metadata\f3\f3bcd00e0458fc5428907aaa3974f540
+    projectPath: Library\metadata\f3\f3bcd00e0458fc5428907aaa3974f540
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\f3\f3bcd00e0458fc5428907aaa3974f540.info
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\metadata\f3\f3bcd00e0458fc5428907aaa3974f540.info
+    projectPath: Library\metadata\f3\f3bcd00e0458fc5428907aaa3974f540.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\ScriptAssemblies\Assembly-CSharp.dll
     fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\ScriptAssemblies\Assembly-CSharp.dll
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
@@ -286,207 +306,75 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Cinemachine.dll
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\ScriptAssemblies\Cinemachine.dll
-    projectPath: Library\ScriptAssemblies\Cinemachine.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Cinemachine.pdb
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\ScriptAssemblies\Cinemachine.pdb
-    projectPath: Library\ScriptAssemblies\Cinemachine.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-    projectPath: Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\com.unity.cinemachine.editor.pdb
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\ScriptAssemblies\com.unity.cinemachine.editor.pdb
-    projectPath: Library\ScriptAssemblies\com.unity.cinemachine.editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.Rider.Editor.dll
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.Rider.Editor.pdb
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\ScriptAssemblies\Unity.Rider.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.Timeline.dll
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\ScriptAssemblies\Unity.Timeline.dll
-    projectPath: Library\ScriptAssemblies\Unity.Timeline.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.Timeline.pdb
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\ScriptAssemblies\Unity.Timeline.pdb
-    projectPath: Library\ScriptAssemblies\Unity.Timeline.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-    projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
-    projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEditor.UI.dll
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\ScriptAssemblies\UnityEditor.UI.dll
-    projectPath: Library\ScriptAssemblies\UnityEditor.UI.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEditor.UI.pdb
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\ScriptAssemblies\UnityEditor.UI.pdb
-    projectPath: Library\ScriptAssemblies\UnityEditor.UI.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-    projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
-    projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEngine.UI.dll
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\ScriptAssemblies\UnityEngine.UI.dll
-    projectPath: Library\ScriptAssemblies\UnityEngine.UI.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEngine.UI.pdb
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\ScriptAssemblies\UnityEngine.UI.pdb
-    projectPath: Library\ScriptAssemblies\UnityEngine.UI.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
     fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\shadercompiler-UnityShaderCompiler.exe0.log
     projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\StateCache\Hierarchy\40e88b-8ab3ffad8801582459.json
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\StateCache\Hierarchy\40e88b-8ab3ffad8801582459.json
+    projectPath: Library\StateCache\Hierarchy\40e88b-8ab3ffad8801582459.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\StateCache\Hierarchy\40e88b-ac7e044fcca245d41b.json
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\StateCache\Hierarchy\40e88b-ac7e044fcca245d41b.json
+    projectPath: Library\StateCache\Hierarchy\40e88b-ac7e044fcca245d41b.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\StateCache\Hierarchy\40e88b-b81cc3a1e65554d498.json
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\StateCache\Hierarchy\40e88b-b81cc3a1e65554d498.json
+    projectPath: Library\StateCache\Hierarchy\40e88b-b81cc3a1e65554d498.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\StateCache\Hierarchy\40e88b-mainStage.json
     fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\StateCache\Hierarchy\40e88b-mainStage.json
     projectPath: Library\StateCache\Hierarchy\40e88b-mainStage.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\StateCache\SceneView\022d96-8ab3ffad8801582459.json
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\StateCache\SceneView\022d96-8ab3ffad8801582459.json
+    projectPath: Library\StateCache\SceneView\022d96-8ab3ffad8801582459.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\StateCache\SceneView\022d96-ac7e044fcca245d41b.json
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\StateCache\SceneView\022d96-ac7e044fcca245d41b.json
+    projectPath: Library\StateCache\SceneView\022d96-ac7e044fcca245d41b.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\StateCache\SceneView\022d96-b81cc3a1e65554d498.json
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\StateCache\SceneView\022d96-b81cc3a1e65554d498.json
+    projectPath: Library\StateCache\SceneView\022d96-b81cc3a1e65554d498.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\StateCache\SceneView\022d96-mainStage.json
     fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Library\StateCache\SceneView\022d96-mainStage.json
     projectPath: Library\StateCache\SceneView\022d96-mainStage.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: ProjectSettings\ProjectSettings.asset
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\ProjectSettings\ProjectSettings.asset
-    projectPath: ProjectSettings\ProjectSettings.asset
+  - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: ProjectSettings\QualitySettings.asset
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\ProjectSettings\QualitySettings.asset
-    projectPath: ProjectSettings\QualitySettings.asset
+  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: ProjectSettings\UnityConnectSettings.asset
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\ProjectSettings\UnityConnectSettings.asset
-    projectPath: ProjectSettings\UnityConnectSettings.asset
+  - path: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+    projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -508,99 +396,27 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-07ddbc77ab57bc341be8fd5cca3ac1df
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Temp\UnityTempFile-07ddbc77ab57bc341be8fd5cca3ac1df
-    projectPath: Temp\UnityTempFile-07ddbc77ab57bc341be8fd5cca3ac1df
+  - path: Temp\UnityTempFile-0f98ebb9262b38842916f6c0f1e1d98d
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Temp\UnityTempFile-0f98ebb9262b38842916f6c0f1e1d98d
+    projectPath: Temp\UnityTempFile-0f98ebb9262b38842916f6c0f1e1d98d
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-0824058c89ce70040b7bf766ba4e02de
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Temp\UnityTempFile-0824058c89ce70040b7bf766ba4e02de
-    projectPath: Temp\UnityTempFile-0824058c89ce70040b7bf766ba4e02de
+  - path: Temp\UnityTempFile-4ac4d569b63cebf4792cd33167dc9b33
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Temp\UnityTempFile-4ac4d569b63cebf4792cd33167dc9b33
+    projectPath: Temp\UnityTempFile-4ac4d569b63cebf4792cd33167dc9b33
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-0e15e44251217fc49a1a1d053430b8cc
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Temp\UnityTempFile-0e15e44251217fc49a1a1d053430b8cc
-    projectPath: Temp\UnityTempFile-0e15e44251217fc49a1a1d053430b8cc
+  - path: Temp\UnityTempFile-6f9a3df4c4e7a9b4594566aba5c18927
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Temp\UnityTempFile-6f9a3df4c4e7a9b4594566aba5c18927
+    projectPath: Temp\UnityTempFile-6f9a3df4c4e7a9b4594566aba5c18927
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-23f0e5d46c6294d4cba36af42e705f44
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Temp\UnityTempFile-23f0e5d46c6294d4cba36af42e705f44
-    projectPath: Temp\UnityTempFile-23f0e5d46c6294d4cba36af42e705f44
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-3e11f9af2499c1240a4d6152f0e45d68
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Temp\UnityTempFile-3e11f9af2499c1240a4d6152f0e45d68
-    projectPath: Temp\UnityTempFile-3e11f9af2499c1240a4d6152f0e45d68
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-4ea0512383fac3d40920b33c273457e4
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Temp\UnityTempFile-4ea0512383fac3d40920b33c273457e4
-    projectPath: Temp\UnityTempFile-4ea0512383fac3d40920b33c273457e4
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-500f1c506db12f246bdcad59ba5c6cac
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Temp\UnityTempFile-500f1c506db12f246bdcad59ba5c6cac
-    projectPath: Temp\UnityTempFile-500f1c506db12f246bdcad59ba5c6cac
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-5ebe77f88d342704f94a3e1a83c9bb6c
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Temp\UnityTempFile-5ebe77f88d342704f94a3e1a83c9bb6c
-    projectPath: Temp\UnityTempFile-5ebe77f88d342704f94a3e1a83c9bb6c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-72d95ec2e7430ea4ca606036446a655b
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Temp\UnityTempFile-72d95ec2e7430ea4ca606036446a655b
-    projectPath: Temp\UnityTempFile-72d95ec2e7430ea4ca606036446a655b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-79c7fd1bed09ed648a3b320be2452a7f
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Temp\UnityTempFile-79c7fd1bed09ed648a3b320be2452a7f
-    projectPath: Temp\UnityTempFile-79c7fd1bed09ed648a3b320be2452a7f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-8225136bdaacb674290b009637728b30
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Temp\UnityTempFile-8225136bdaacb674290b009637728b30
-    projectPath: Temp\UnityTempFile-8225136bdaacb674290b009637728b30
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-905c5d558475f35498b414333ea82ffc
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Temp\UnityTempFile-905c5d558475f35498b414333ea82ffc
-    projectPath: Temp\UnityTempFile-905c5d558475f35498b414333ea82ffc
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-ad0d14cb09bc6e24ea0531187ba29c75
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Temp\UnityTempFile-ad0d14cb09bc6e24ea0531187ba29c75
-    projectPath: Temp\UnityTempFile-ad0d14cb09bc6e24ea0531187ba29c75
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-bf1f750b43ee297418ecbf983de0f577
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Temp\UnityTempFile-bf1f750b43ee297418ecbf983de0f577
-    projectPath: Temp\UnityTempFile-bf1f750b43ee297418ecbf983de0f577
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-dda52da8e817b7a43b5dc9a739d669f2
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Temp\UnityTempFile-dda52da8e817b7a43b5dc9a739d669f2
-    projectPath: Temp\UnityTempFile-dda52da8e817b7a43b5dc9a739d669f2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-fc001280f744b5b40bc1b4284d67e7ab
-    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Temp\UnityTempFile-fc001280f744b5b40bc1b4284d67e7ab
-    projectPath: Temp\UnityTempFile-fc001280f744b5b40bc1b4284d67e7ab
+  - path: Temp\UnityTempFile-e909ed3b6929bc54b8094f0b2f710a84
+    fullPath: D:\UnityProjects\IA2TP\InteligenciaArtificial2doParcial\Temp\UnityTempFile-e909ed3b6929bc54b8094f0b2f710a84
+    projectPath: Temp\UnityTempFile-e909ed3b6929bc54b8094f0b2f710a84
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

@@ -71,7 +71,6 @@ GameObject:
   m_Component:
   - component: {fileID: 691574964514257426}
   - component: {fileID: 7427267040776836968}
-  - component: {fileID: 956326201279575799}
   - component: {fileID: 5722279671339660613}
   - component: {fileID: 1837476232827932211}
   - component: {fileID: 7037399551236250219}
@@ -117,22 +116,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &956326201279575799
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4594707484173273089}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a74b917b7553804599f0d4be3de9515, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  RocketTarget: {fileID: 0}
-  RocketRgb: {fileID: 1837476232827932211}
-  turnSpeed: 1
-  rocketFlySpeed: 10
 --- !u!82 &5722279671339660613
 AudioSource:
   m_ObjectHideFlags: 0
