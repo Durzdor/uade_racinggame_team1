@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\Durzdor\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Durzdor\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_InteligenciaArtificial2doParcial.-603966063.00" t="ExcludeRecursive" />
-    <e p="D:\Unity Projects\Github\I.A\2doParcial\InteligenciaArtificial2doParcial" t="IncludeRecursive">
+    <e p="C:\Users\Durzdor\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_InteligenciaArtificial2doParcial.1881617452.00" t="ExcludeRecursive" />
+    <e p="D:\IA2\UADE_RACINGGAME_TEAM1_IA\InteligenciaArtificial2doParcial" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="_Main" t="Include">
@@ -20,7 +21,6 @@
               <e p="ItemBox.cs" t="Include" />
               <e p="KartController.cs" t="Include" />
               <e p="KartPlayer.cs" t="Include" />
-              <e p="MissileBehaviour.cs" t="Include" />
               <e p="MissilePower.cs" t="Include" />
               <e p="PivotBasedCameraRig.cs" t="Include" />
               <e p="Power.cs" t="Include" />
@@ -31,20 +31,35 @@
               <e p="CreditsMenuManager.cs" t="Include" />
               <e p="CursorImage.cs" t="Include" />
               <e p="MainMenuController.cs" t="Include" />
+              <e p="PreMenuScreen.cs" t="Include" />
             </e>
             <e p="Utilities" t="Include">
               <e p="ActionNode.cs" t="Include" />
+              <e p="Evade.cs" t="Include" />
               <e p="FSM.cs" t="Include" />
               <e p="FSMState.cs" t="Include" />
               <e p="GameManager.cs" t="Include" />
               <e p="GameTimer.cs" t="Include" />
               <e p="INode.cs" t="Include" />
+              <e p="ISteeringBehaviours.cs" t="Include" />
+              <e p="MinimapScript.cs" t="Include" />
+              <e p="ObstacleAvoidance.cs" t="Include" />
+              <e p="Pursuit.cs" t="Include" />
               <e p="QuestionNode.cs" t="Include" />
               <e p="Roulette.cs" t="Include" />
             </e>
           </e>
         </e>
-        <e p="MinimapScript.cs" t="Include" />
+        <e p="Plugins" t="Include">
+          <e p="Github" t="Include">
+            <e p="Editor" t="Include">
+              <e p="credits.txt" t="Include" />
+              <e p="eula.txt" t="Include" />
+              <e p="ExtensionLoader.cs" t="Include" />
+              <e p="UnityAPIWrapper.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">
             <e p="LiberationSans - OFL.txt" t="Include" />
